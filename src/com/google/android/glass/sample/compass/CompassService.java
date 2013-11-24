@@ -69,6 +69,10 @@ public class CompassService extends Service {
             String headingText = res.getString(headingFormat, roundedHeading, directionName);
             mSpeech.speak(headingText, TextToSpeech.QUEUE_FLUSH, null);
         }
+
+        public void refreshFlights() {
+          mLandmarks.refreshFlights();
+        }
     }
 
     private final CompassBinder mBinder = new CompassBinder();

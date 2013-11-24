@@ -23,4 +23,8 @@
         android:id="@+id/stop"
         android:title="@string/stop"
         android:icon="@drawable/ic_stop"/>
+    
+    <item android:id="@+id/refresh"
+        android:title="@string/refresh"
+        android:icon="@drawable/ic_read_aloud" />
 </menu>

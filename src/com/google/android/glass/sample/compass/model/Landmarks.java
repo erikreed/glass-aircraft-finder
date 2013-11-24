@@ -65,21 +65,21 @@ public class Landmarks {
         // this case, we assume that the landmark data will be small enough that there is not
         // a significant penalty to the application. If the landmark data were much larger,
         // we may want to load it in the background instead.
+        refreshFlights(); 
         
-        // original--
-//        String jsonString = readLandmarksResource(context);
-//        populatePlaceList(jsonString);
-        // location.getLatitude(), location.getLongitude()
-        double[] box = FlightRetrieval.getBoundingBox(37.433982, -122.118807, MAX_DISTANCE_KM, null);
-        try {
-          ArrayList<Flight> flights = FlightRetrieval.getFlights(box);
-          for (Flight f : flights) {
-            mPlaces.add(new Place(f.latitude, f.longitude, f.flightNumber));
-          }
-        } catch (Exception e) {
-          Log.e("Flights", e.getMessage(), e);
-        } 
-        
+    }
+
+    public void refreshFlights() {
+      mPlaces.clear();
+      double[] box = FlightRetrieval.getBoundingBox(37.433982, -122.118807, MAX_DISTANCE_KM, null);
+      try {
+        ArrayList<Flight> flights = FlightRetrieval.getFlights(box);
+        for (Flight f : flights) {
+          mPlaces.add(new Place(f.latitude, f.longitude, f.flightNumber));
+        }
+      } catch (Exception e) {
+        Log.e("Flights", e.getMessage(), e);
+      }
     }
 
     /**
@@ -101,72 +101,10 @@ public class Landmarks {
     }
 
     /**
-     * Populates the internal places list from places found in a JSON string. This string should
-     * contain a root object with a "landmarks" property that is an array of objects that represent
-     * places. A place has three properties: name, latitude, and longitude.
-     */
-    private void populatePlaceList(String jsonString) {
-        try {
-            JSONObject json = new JSONObject(jsonString);
-            JSONArray array = json.optJSONArray("landmarks");
-
-            if (array != null) {
-                for (int i = 0; i < array.length(); i++) {
-                    JSONObject object = array.optJSONObject(i);
-                    Place place = jsonObjectToPlace(object);
-                    if (place != null) {
-                        mPlaces.add(place);
-                    }
-                }
-            }
-        } catch (JSONException e) {
-            Log.e(TAG, "Could not parse landmarks JSON string", e);
-        }
-    }
-
-    /**
      * Converts a JSON object that represents a place into a {@link Place} object.
      */
     private Place jsonObjectToPlace(JSONObject object) {
-        String name = object.optString("name");
-        double latitude = object.optDouble("latitude", Double.NaN);
-        double longitude = object.optDouble("longitude", Double.NaN);
-
-        if (!name.isEmpty() && !Double.isNaN(latitude) && !Double.isNaN(longitude)) {
-            return new Place(latitude, longitude, name);
-        } else {
-            return null;
-        }
+      return null;
     }
 
-    /**
-     * Reads the text from {@code res/raw/landmarks.json} and returns it as a string.
-     */
-    private static String readLandmarksResource(Context context) {
-        InputStream is = context.getResources().openRawResource(R.raw.landmarks);
-        StringBuffer buffer = new StringBuffer();
-
-        try {
-            BufferedReader reader = new BufferedReader(new InputStreamReader(is));
-
-            String line;
-            while ((line = reader.readLine()) != null) {
-                buffer.append(line);
-                buffer.append('\n');
-            }
-        } catch (IOException e) {
-            Log.e(TAG, "Could not read landmarks resource", e);
-            return null;
-        } finally {
-            if (is != null) {
-                try {
-                    is.close();
-                } catch (IOException e) {
-                    Log.e(TAG, "Could not close landmarks resource stream", e);
-                }
-            }
-        }
-
-        return buffer.toString();
-    }
 }
