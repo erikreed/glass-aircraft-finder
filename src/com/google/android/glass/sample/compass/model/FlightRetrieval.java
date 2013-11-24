@@ -25,12 +25,6 @@ public class FlightRetrieval {
   public static ArrayList<Flight> getFlights(double[] box) throws MalformedURLException,
       IOException, JSONException {
     String trackerUrl = getUrl(box);
-    // URL url = new URL(trackerUrl);
-    // URLConnection conn = url.openConnection();
-//     conn.setRequestProperty("X-Requested-With", "XMLHttpRequest");
-    // BufferedReader in = new BufferedReader(new InputStreamReader(conn.getInputStream()));
-    // String inputText = in.readLine();
-    // in.close();
     
     StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
     StrictMode.setThreadPolicy(policy);
@@ -51,8 +45,6 @@ public class FlightRetrieval {
       response.getEntity().getContent().close();
       throw new IOException(statusLine.getReasonPhrase());
     }
-
-//    Log.i("Flights", inputText);
     
     JSONObject json = new JSONObject(inputText);
     Log.i("Flights", json.toString(2));
@@ -82,9 +74,10 @@ public class FlightRetrieval {
 
   private static int parseFlights(ArrayList<Flight> flights, int failed, JSONObject plane)
       throws JSONException {
-    Iterator iter = plane.keys();
+    @SuppressWarnings("unchecked")
+    Iterator<String> iter = plane.keys();
     while (iter.hasNext()) {
-      String id = (String) iter.next();
+      String id = iter.next();
       try {
         Flight flight = new Flight(id, plane.getJSONArray(id));
         flights.add(flight);
