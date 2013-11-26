@@ -85,9 +85,9 @@ public class CompassMenuActivity extends Activity {
       case R.id.read_aloud:
         mCompassService.readHeadingAloud();
         return true;
-      case R.id.refresh:
-        mCompassService.refreshFlights();
-        return true;
+//      case R.id.refresh:
+//        mCompassService.refreshFlights();
+//        return true;
       case R.id.stop:
         stopService(new Intent(this, CompassService.class));
         return true;

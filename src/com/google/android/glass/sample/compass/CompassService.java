@@ -79,6 +79,10 @@ public class CompassService extends Service {
   private LiveCard mLiveCard;
   private CompassRenderer mRenderer;
 
+  public int getNumFlights() {
+    return mLandmarks.getNumFlights();
+  }
+  
   @Override
   public void onCreate() {
     super.onCreate();

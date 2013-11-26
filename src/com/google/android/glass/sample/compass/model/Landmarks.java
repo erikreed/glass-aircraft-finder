@@ -39,13 +39,13 @@ public class Landmarks {
   /**
    * The list of landmarks loaded from resources.
    */
-  private final ArrayList<Place> mPlaces;
+  private final ArrayList<Flight> flightsLoaded;
 
   /**
    * Initializes a new {@code Landmarks} object by loading the landmarks from the resource bundle.
    */
   public Landmarks(Context context) {
-    mPlaces = new ArrayList<Place>();
+    flightsLoaded = new ArrayList<Flight>();
 
     // This class will be instantiated on the service's main thread, and doing I/O on the
     // main thread can be dangerous if it will block for a noticeable amount of time. In
@@ -55,17 +55,20 @@ public class Landmarks {
     refreshFlights();
 
   }
+  
+  public int getNumFlights() {
+    return flightsLoaded.size();
+  }
 
-  public void refreshFlights() {
-    mPlaces.clear();
+  public synchronized void refreshFlights() {
+    Log.i(TAG, "Refreshing flights...");
+    flightsLoaded.clear();
     double[] box = FlightRetrieval.getBoundingBox(37.433982, -122.118807, MAX_DISTANCE_KM, null);
     try {
       ArrayList<Flight> flights = FlightRetrieval.getFlights(box);
-      for (Flight f : flights) {
-        mPlaces.add(new Place(f.latitude, f.longitude, f.flightNumber));
-      }
+      flightsLoaded.addAll(flights);
     } catch (Exception e) {
-      Log.e("Flights", e.getMessage(), e);
+      Log.e(TAG, e.getMessage(), e);
     }
   }
 
@@ -74,8 +77,8 @@ public class Landmarks {
    * function will never return null; if there are no locations within that threshold, then an empty
    * list will be returned.
    */
-  public List<Place> getNearbyLandmarks(double latitude, double longitude) {
-    return mPlaces;
+  public List<Flight> getFlights(double latitude, double longitude) {
+    return flightsLoaded;
 //    ArrayList<Place> nearbyPlaces = new ArrayList<Place>();
 //
 //    for (Place knownPlace : mPlaces) {

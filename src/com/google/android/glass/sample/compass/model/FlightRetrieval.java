@@ -69,7 +69,7 @@ public class FlightRetrieval {
     Log.i("Flights", flights.toString());
     System.out.printf("\n\nPartial: %s. Successfully loaded %d flights (%d failed)\n",
         Boolean.toString(isPartial), flights.size(), failed);
-    return flights;
+    return cleanFlights(flights);
   }
 
   private static int parseFlights(ArrayList<Flight> flights, int failed, JSONObject plane)
@@ -91,6 +91,16 @@ public class FlightRetrieval {
   private static String getUrl(double[] box) {
     return String.format("http://planefinder.net/endpoints/update.php?" + "faa=1&bounds="
         + "%f,%f,%f,%f", box[0], box[1], box[2], box[3]);
+  }
+  
+  public static ArrayList<Flight> cleanFlights(ArrayList<Flight> flights) {
+    ArrayList<Flight> cleanedFlights = new ArrayList<Flight>(flights.size());
+    for (Flight f : flights) {
+      if (f.registration.startsWith("z.NO-REG") && f.flightNumber.startsWith("z.NO")) {
+        System.out.println("Removing flight: " + f);
+      }
+    }
+    return cleanedFlights;
   }
 
   public static double[] getBoundingBox(double lat, double lon, double radius, double[] asd) {

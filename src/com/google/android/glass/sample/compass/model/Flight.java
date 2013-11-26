@@ -7,19 +7,19 @@ import org.json.JSONException;
 
 public class Flight {
 
-  final String identification;
-  final String type;
-  final String registration;
-  final String flightNumber;
-  final double latitude;
-  final double longitude;
-  final double altitude;
-  final double angle; // heading
-  final double speed; // ground speed
-  final String timestamp; // zulu probably
-  final String airline;
-  final String flightNumber2;
-  final String[] path;
+  public final String identification;
+  public final String type;
+  public final String registration;
+  public final String flightNumber;
+  public final double latitude;
+  public final double longitude;
+  public final double altitude;
+  public final double angle; // heading
+  public final double speed; // ground speed
+  public final String timestamp; // zulu probably
+  public final String airline;
+  public final String flightNumber2;
+  public final String[] path;
 
   public Flight(String identification, JSONArray input) throws JSONException {
     if (input.length() != 12 && input.length() != 11) {

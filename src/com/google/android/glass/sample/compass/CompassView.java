@@ -14,6 +14,7 @@
 
 package com.google.android.glass.sample.compass;
 
+import com.google.android.glass.sample.compass.model.Flight;
 import com.google.android.glass.sample.compass.model.Place;
 import com.google.android.glass.sample.compass.util.MathUtils;
 
@@ -82,13 +83,15 @@ public class CompassView extends View {
   private float mAnimatedHeading;
 
   private OrientationManager mOrientation;
-  private List<Place> mNearbyPlaces;
+  private List<Flight> mFlights;
 
   private final Paint mPaint;
   private final Paint mTickPaint;
   private final Path mPath;
   private final TextPaint mPlacePaint;
   private final Bitmap mPlaceBitmap;
+  private final Bitmap mBitmapCessna;
+  private final Bitmap mBitmapAirbus;
   private final Rect mTextBounds;
   private final List<Rect> mAllBounds;
   private final NumberFormat mDistanceFormat;
@@ -135,6 +138,8 @@ public class CompassView extends View {
     mDistanceFormat.setMaximumFractionDigits(1);
 
     mPlaceBitmap = BitmapFactory.decodeResource(context.getResources(), R.drawable.place_mark);
+    mBitmapCessna = BitmapFactory.decodeResource(context.getResources(), R.drawable.place_mark);
+    mBitmapAirbus = BitmapFactory.decodeResource(context.getResources(), R.drawable.place_mark);
 
     // We use NaN to indicate that the compass is being drawn for the first
     // time, so that we can jump directly to the starting orientation
@@ -177,15 +182,8 @@ public class CompassView extends View {
     animateTo(mHeading);
   }
 
-  /**
-   * Sets the list of nearby places that the compass should display. This list is recalculated
-   * whenever the user's location changes, so that only locations within a certain distance will be
-   * displayed.
-   * 
-   * @param places the list of {@code Place}s that should be displayed
-   */
-  public void setNearbyPlaces(List<Place> places) {
-    mNearbyPlaces = places;
+  public void setFlights(List<Flight> flights) {
+    mFlights = flights;
   }
 
   @Override
@@ -255,8 +253,8 @@ public class CompassView extends View {
    *        direction; used because place names are drawn three times to get proper wraparound
    */
   private void drawPlaces(Canvas canvas, float pixelsPerDegree, float offset) {
-    if (mOrientation.hasLocation() && mNearbyPlaces != null) {
-      synchronized (mNearbyPlaces) {
+    if (mOrientation.hasLocation() && mFlights != null) {
+      synchronized (mFlights) {
         Location userLocation = mOrientation.getLocation();
         double latitude1 = userLocation.getLatitude();
         double longitude1 = userLocation.getLongitude();
@@ -267,12 +265,12 @@ public class CompassView extends View {
         // location), and compute the relative bearing from the user's location to the
         // place's location. This determines the position on the compass view where the
         // pin will be drawn.
-        for (Place place : mNearbyPlaces) {
-          double latitude2 = place.getLatitude();
-          double longitude2 = place.getLongitude();
+        for (Flight flight : mFlights) {
+          double latitude2 = flight.latitude;
+          double longitude2 = flight.longitude;
           float bearing = MathUtils.getBearing(latitude1, longitude1, latitude2, longitude2);
 
-          String name = place.getName();
+          String name = flight.flightNumber;
           double distanceKm = MathUtils.getDistance(latitude1, longitude1, latitude2, longitude2);
           String text =
               getContext().getResources().getString(R.string.place_text_format, name,

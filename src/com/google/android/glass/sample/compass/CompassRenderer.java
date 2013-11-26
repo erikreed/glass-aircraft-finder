@@ -14,6 +14,7 @@
 
 package com.google.android.glass.sample.compass;
 
+import com.google.android.glass.sample.compass.model.Flight;
 import com.google.android.glass.sample.compass.model.Landmarks;
 import com.google.android.glass.sample.compass.model.Place;
 
@@ -65,7 +66,7 @@ public class CompassRenderer implements SurfaceHolder.Callback {
   private final RelativeLayout mTipsContainer;
   private final TextView mTipsView;
   private final OrientationManager mOrientationManager;
-  private final Landmarks mLandmarks;
+  private final Landmarks mFlights;
 
   private final OrientationManager.OnChangedListener mCompassListener =
       new OrientationManager.OnChangedListener() {
@@ -84,9 +85,9 @@ public class CompassRenderer implements SurfaceHolder.Callback {
         @Override
         public void onLocationChanged(OrientationManager orientationManager) {
           Location location = orientationManager.getLocation();
-          List<Place> places =
-              mLandmarks.getNearbyLandmarks(location.getLatitude(), location.getLongitude());
-          mCompassView.setNearbyPlaces(places);
+          List<Flight> places =
+              mFlights.getFlights(location.getLatitude(), location.getLongitude());
+          mCompassView.setFlights(places);
         }
 
         @Override
@@ -110,7 +111,7 @@ public class CompassRenderer implements SurfaceHolder.Callback {
     mTipsView = (TextView) mLayout.findViewById(R.id.tips_view);
 
     mOrientationManager = orientationManager;
-    mLandmarks = landmarks;
+    mFlights = landmarks;
 
     mCompassView.setOrientationManager(mOrientationManager);
   }
@@ -131,9 +132,9 @@ public class CompassRenderer implements SurfaceHolder.Callback {
 
     if (mOrientationManager.hasLocation()) {
       Location location = mOrientationManager.getLocation();
-      List<Place> nearbyPlaces =
-          mLandmarks.getNearbyLandmarks(location.getLatitude(), location.getLongitude());
-      mCompassView.setNearbyPlaces(nearbyPlaces);
+      List<Flight> flights =
+          mFlights.getFlights(location.getLatitude(), location.getLongitude());
+      mCompassView.setFlights(flights);
     }
 
     mRenderThread = new RenderThread();
@@ -245,10 +246,15 @@ public class CompassRenderer implements SurfaceHolder.Callback {
 
     @Override
     public void run() {
+      long lastFlightsRefresh = SystemClock.elapsedRealtime();
       while (shouldRun()) {
-        long frameStart = SystemClock.elapsedRealtime();
+        long currentTime = SystemClock.elapsedRealtime();
+        if ((currentTime - lastFlightsRefresh) / 1000.0 > 15) {
+          mFlights.refreshFlights();
+          lastFlightsRefresh = currentTime;
+        }
         repaint();
-        long frameLength = SystemClock.elapsedRealtime() - frameStart;
+        long frameLength = SystemClock.elapsedRealtime() - currentTime;
 
         long sleepTime = FRAME_TIME_MILLIS - frameLength;
         if (sleepTime > 0) {
