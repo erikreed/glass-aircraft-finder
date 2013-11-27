@@ -40,6 +40,7 @@ import java.util.concurrent.TimeUnit;
  */
 public class CompassRenderer implements SurfaceHolder.Callback {
 
+  private static final int REFRESH_FLIGHTS_INTERVAL = 30;
   private static final String TAG = CompassRenderer.class.getSimpleName();
 
   /**
@@ -249,7 +250,7 @@ public class CompassRenderer implements SurfaceHolder.Callback {
       long lastFlightsRefresh = SystemClock.elapsedRealtime();
       while (shouldRun()) {
         long currentTime = SystemClock.elapsedRealtime();
-        if ((currentTime - lastFlightsRefresh) / 1000.0 > 15) {
+        if ((currentTime - lastFlightsRefresh) / 1000.0 > REFRESH_FLIGHTS_INTERVAL) {
           mFlights.refreshFlights();
           lastFlightsRefresh = currentTime;
         }

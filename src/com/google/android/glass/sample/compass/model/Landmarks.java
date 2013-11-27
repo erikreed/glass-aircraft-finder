@@ -79,16 +79,6 @@ public class Landmarks {
    */
   public List<Flight> getFlights(double latitude, double longitude) {
     return flightsLoaded;
-//    ArrayList<Place> nearbyPlaces = new ArrayList<Place>();
-//
-//    for (Place knownPlace : mPlaces) {
-//      if (MathUtils.getDistance(latitude, longitude, knownPlace.getLatitude(),
-//          knownPlace.getLongitude()) <= MAX_DISTANCE_KM) {
-//        nearbyPlaces.add(knownPlace);
-//      }
-//    }
-//
-//    return nearbyPlaces;
   }
 
   /**

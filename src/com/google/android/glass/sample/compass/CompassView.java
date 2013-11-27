@@ -34,6 +34,7 @@ import android.graphics.Typeface;
 import android.location.Location;
 import android.text.TextPaint;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.View;
 import android.view.animation.LinearInterpolator;
 
@@ -56,7 +57,7 @@ public class CompassView extends View {
   private static final float TICK_HEIGHT = 10;
   private static final float DIRECTION_TEXT_HEIGHT = 84.0f;
   private static final float PLACE_TEXT_HEIGHT = 22.0f;
-  private static final float PLACE_PIN_WIDTH = 14.0f;
+  private static final float FLIGHT_ICON_WIDTH = 20.0f;
   private static final float PLACE_TEXT_LEADING = 4.0f;
   private static final float PLACE_TEXT_MARGIN = 8.0f;
 
@@ -138,8 +139,8 @@ public class CompassView extends View {
     mDistanceFormat.setMaximumFractionDigits(1);
 
     mPlaceBitmap = BitmapFactory.decodeResource(context.getResources(), R.drawable.place_mark);
-    mBitmapCessna = BitmapFactory.decodeResource(context.getResources(), R.drawable.place_mark);
-    mBitmapAirbus = BitmapFactory.decodeResource(context.getResources(), R.drawable.place_mark);
+    mBitmapCessna = BitmapFactory.decodeResource(context.getResources(), R.drawable.cessna_small);
+    mBitmapAirbus = BitmapFactory.decodeResource(context.getResources(), R.drawable.a320_small);
 
     // We use NaN to indicate that the compass is being drawn for the first
     // time, so that we can jump directly to the starting orientation
@@ -203,7 +204,7 @@ public class CompassView extends View {
     // draw them three times; once to the left, once at the "true" bearing, and once to the
     // right.
     for (int i = -1; i <= 1; i++) {
-      drawPlaces(canvas, pixelsPerDegree, i * pixelsPerDegree * 360);
+      drawFlights(canvas, pixelsPerDegree, i * pixelsPerDegree * 360);
     }
 
     drawCompassDirections(canvas, pixelsPerDegree);
@@ -252,12 +253,12 @@ public class CompassView extends View {
    * @param offset the number of pixels to translate the drawing operations by in the horizontal
    *        direction; used because place names are drawn three times to get proper wraparound
    */
-  private void drawPlaces(Canvas canvas, float pixelsPerDegree, float offset) {
+  private void drawFlights(Canvas canvas, float pixelsPerDegree, float offset) {
     if (mOrientation.hasLocation() && mFlights != null) {
       synchronized (mFlights) {
         Location userLocation = mOrientation.getLocation();
-        double latitude1 = userLocation.getLatitude();
-        double longitude1 = userLocation.getLongitude();
+        double userLat = userLocation.getLatitude();
+        double userLon = userLocation.getLongitude();
 
         mAllBounds.clear();
 
@@ -266,12 +267,13 @@ public class CompassView extends View {
         // place's location. This determines the position on the compass view where the
         // pin will be drawn.
         for (Flight flight : mFlights) {
-          double latitude2 = flight.latitude;
-          double longitude2 = flight.longitude;
-          float bearing = MathUtils.getBearing(latitude1, longitude1, latitude2, longitude2);
+          double flightLat = flight.latitude;
+          double flightLon = flight.longitude;
+          float bearing = MathUtils.getBearing(userLat, userLon, flightLat, flightLon);
 
           String name = flight.flightNumber;
-          double distanceKm = MathUtils.getDistance(latitude1, longitude1, latitude2, longitude2);
+          Log.i("Flights", String.format("Drawing flight %s, Lat %f, long %f", name, flightLat, flightLon));
+          double distanceKm = MathUtils.getDistance(userLat, userLon, flightLat, flightLon);
           String text =
               getContext().getResources().getString(R.string.place_text_format, name,
                   mDistanceFormat.format(distanceKm));
@@ -281,12 +283,12 @@ public class CompassView extends View {
           Rect textBounds = new Rect();
           mPlacePaint.getTextBounds(text, 0, text.length(), textBounds);
           textBounds.offsetTo(
-              (int) (offset + bearing * pixelsPerDegree + PLACE_PIN_WIDTH / 2 + PLACE_TEXT_MARGIN),
+              (int) (offset + bearing * pixelsPerDegree + FLIGHT_ICON_WIDTH / 2 + PLACE_TEXT_MARGIN),
               canvas.getHeight() / 2 - (int) PLACE_TEXT_HEIGHT);
 
           // Extend the bounds rectangle to include the pin icon and a small margin
           // to the right of the text, for the overlap calculations below.
-          textBounds.left -= PLACE_PIN_WIDTH + PLACE_TEXT_MARGIN;
+          textBounds.left -= FLIGHT_ICON_WIDTH + PLACE_TEXT_MARGIN;
           textBounds.right += PLACE_TEXT_MARGIN;
 
           // This loop attempts to find the best vertical position for the string by
@@ -314,10 +316,15 @@ public class CompassView extends View {
           // directions. This means some places may not be drawn, even if they're nearby.
           if (numberOfTries <= MAX_OVERLAPPING_PLACE_NAMES) {
             mAllBounds.add(textBounds);
-
-            canvas.drawBitmap(mPlaceBitmap, offset + bearing * pixelsPerDegree - PLACE_PIN_WIDTH
+            Bitmap planeIcon;
+            if (flight.type.startsWith("A32")) {
+              planeIcon = mBitmapAirbus;
+            } else {
+              planeIcon = mBitmapCessna;
+            }
+            canvas.drawBitmap(planeIcon, offset + bearing * pixelsPerDegree - FLIGHT_ICON_WIDTH
                 / 2, textBounds.top + 2, mPaint);
-            canvas.drawText(text, offset + bearing * pixelsPerDegree + PLACE_PIN_WIDTH / 2
+            canvas.drawText(text, offset + bearing * pixelsPerDegree + FLIGHT_ICON_WIDTH / 2
                 + PLACE_TEXT_MARGIN, textBounds.top + PLACE_TEXT_HEIGHT, mPlacePaint);
           }
         }

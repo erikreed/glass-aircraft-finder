@@ -98,6 +98,8 @@ public class FlightRetrieval {
     for (Flight f : flights) {
       if (f.registration.startsWith("z.NO-REG") && f.flightNumber.startsWith("z.NO")) {
         System.out.println("Removing flight: " + f);
+      } else {
+        cleanedFlights.add(f);
       }
     }
     return cleanedFlights;
