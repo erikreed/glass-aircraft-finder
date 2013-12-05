@@ -97,7 +97,9 @@ public class FlightRetrieval {
     ArrayList<Flight> cleanedFlights = new ArrayList<Flight>(flights.size());
     for (Flight f : flights) {
       if (f.registration.startsWith("z.NO-REG") && f.flightNumber.startsWith("z.NO")) {
-        System.out.println("Removing flight: " + f);
+        System.out.println("Removing flight (registration): " + f);
+      } else if (f.altitude == 0) {
+        System.out.println("Removing flight (altitude): " + f);
       } else {
         cleanedFlights.add(f);
       }

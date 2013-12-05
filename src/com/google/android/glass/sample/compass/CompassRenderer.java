@@ -86,8 +86,9 @@ public class CompassRenderer implements SurfaceHolder.Callback {
         @Override
         public void onLocationChanged(OrientationManager orientationManager) {
           Location location = orientationManager.getLocation();
-          List<Flight> places =
-              mFlights.getFlights(location.getLatitude(), location.getLongitude());
+          mFlights.setLocation(location.getLatitude(), location.getLongitude());
+          mFlights.refreshFlights();
+          List<Flight> places = mFlights.getFlights();
           mCompassView.setFlights(places);
         }
 
@@ -133,8 +134,9 @@ public class CompassRenderer implements SurfaceHolder.Callback {
 
     if (mOrientationManager.hasLocation()) {
       Location location = mOrientationManager.getLocation();
-      List<Flight> flights =
-          mFlights.getFlights(location.getLatitude(), location.getLongitude());
+      mFlights.setLocation(location.getLatitude(), location.getLongitude());
+      mFlights.refreshFlights();
+      List<Flight> flights = mFlights.getFlights();
       mCompassView.setFlights(flights);
     }
 

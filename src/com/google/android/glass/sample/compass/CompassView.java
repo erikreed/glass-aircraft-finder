@@ -92,12 +92,26 @@ public class CompassView extends View {
   private final TextPaint mPlacePaint;
   private final Bitmap mPlaceBitmap;
   private final Bitmap mBitmapCessna;
-  private final Bitmap mBitmapAirbus;
+  private final Bitmap mBitmapAirbus320;
   private final Rect mTextBounds;
   private final List<Rect> mAllBounds;
   private final NumberFormat mDistanceFormat;
   private final String[] mDirections;
   private final ValueAnimator mAnimator;
+  private Bitmap mBitmapAirbus380;
+  private Bitmap mBitmapAirbus340;
+  private Bitmap mBitmapAirbus330;
+  private Bitmap mBitmapBoeing737;
+  private Bitmap mBitmapBoeing767;
+  private Bitmap mBitmapBoeing777;
+  private Bitmap mBitmapBoeing787;
+  private Bitmap mBitmapBoeing747;
+  private Bitmap mBitmapMD11;
+  private Bitmap mBitmapCRJ1000;
+  private Bitmap mBitmapBE200C;
+  private Bitmap mBitmapBizjet;
+  private Bitmap mBitmapE195;
+  private Bitmap mBitmapERJ;
 
   public CompassView(Context context) {
     this(context, null, 0);
@@ -139,9 +153,23 @@ public class CompassView extends View {
     mDistanceFormat.setMaximumFractionDigits(1);
 
     mPlaceBitmap = BitmapFactory.decodeResource(context.getResources(), R.drawable.place_mark);
-    mBitmapCessna = BitmapFactory.decodeResource(context.getResources(), R.drawable.cessna_small);
-    mBitmapAirbus = BitmapFactory.decodeResource(context.getResources(), R.drawable.a320_small);
-
+    mBitmapCessna = BitmapFactory.decodeResource(context.getResources(), R.drawable.cessna);
+    mBitmapAirbus320 = BitmapFactory.decodeResource(context.getResources(), R.drawable.a320);
+    mBitmapAirbus330 = BitmapFactory.decodeResource(context.getResources(), R.drawable.a330);
+    mBitmapAirbus340 = BitmapFactory.decodeResource(context.getResources(), R.drawable.a340);
+    mBitmapAirbus380 = BitmapFactory.decodeResource(context.getResources(), R.drawable.a380);
+    mBitmapBoeing737 = BitmapFactory.decodeResource(context.getResources(), R.drawable.b737);
+    mBitmapBoeing767 = BitmapFactory.decodeResource(context.getResources(), R.drawable.b767);
+    mBitmapBoeing777 = BitmapFactory.decodeResource(context.getResources(), R.drawable.b777);
+    mBitmapBoeing787 = BitmapFactory.decodeResource(context.getResources(), R.drawable.b787);
+    mBitmapBoeing747 = BitmapFactory.decodeResource(context.getResources(), R.drawable.b747);
+    mBitmapMD11 = BitmapFactory.decodeResource(context.getResources(), R.drawable.md11);
+    mBitmapCRJ1000 = BitmapFactory.decodeResource(context.getResources(), R.drawable.crj1000);
+    mBitmapBE200C = BitmapFactory.decodeResource(context.getResources(), R.drawable.be200c);
+    mBitmapBizjet = BitmapFactory.decodeResource(context.getResources(), R.drawable.bizjet);
+    mBitmapE195= BitmapFactory.decodeResource(context.getResources(), R.drawable.e195);
+    mBitmapERJ = BitmapFactory.decodeResource(context.getResources(), R.drawable.erj);
+    
     // We use NaN to indicate that the compass is being drawn for the first
     // time, so that we can jump directly to the starting orientation
     // instead of spinning from a default value of 0.
@@ -272,7 +300,6 @@ public class CompassView extends View {
           float bearing = MathUtils.getBearing(userLat, userLon, flightLat, flightLon);
 
           String name = flight.flightNumber;
-          Log.i("Flights", String.format("Drawing flight %s, Lat %f, long %f", name, flightLat, flightLon));
           double distanceKm = MathUtils.getDistance(userLat, userLon, flightLat, flightLon);
           String text =
               getContext().getResources().getString(R.string.place_text_format, name,
@@ -317,8 +344,40 @@ public class CompassView extends View {
           if (numberOfTries <= MAX_OVERLAPPING_PLACE_NAMES) {
             mAllBounds.add(textBounds);
             Bitmap planeIcon;
-            if (flight.type.startsWith("A32")) {
-              planeIcon = mBitmapAirbus;
+            String type = flight.type;
+            if (type.startsWith("A32") || type.startsWith("A31")) {
+              planeIcon = mBitmapAirbus320;
+            } else if (type.startsWith("A33") || type.startsWith("A30") || type.startsWith("B75")) {
+              planeIcon = mBitmapAirbus330;
+            } else if (type.startsWith("B73")) {
+              planeIcon = mBitmapBoeing737;
+            } else if (type.startsWith("A34")) {
+              planeIcon = mBitmapAirbus340;
+            } else if (type.startsWith("A38")) {
+              planeIcon = mBitmapAirbus380;
+            } else if (type.startsWith("B74")) {
+              planeIcon = mBitmapBoeing747;
+            } else if (type.startsWith("B76")) {
+              planeIcon = mBitmapBoeing767;
+            } else if (type.startsWith("B77")) {
+              planeIcon = mBitmapBoeing777;
+            } else if (type.startsWith("B78")) {
+              planeIcon = mBitmapBoeing787;
+            } else if (type.startsWith("MD") || type.startsWith("DC")) {
+              planeIcon = mBitmapMD11;
+            } else if (type.startsWith("BE")) {
+              planeIcon = mBitmapBE200C;
+            } else if (type.startsWith("CRJ")) {
+              planeIcon = mBitmapCRJ1000;
+            } else if (type.startsWith("E1")) {
+              planeIcon = mBitmapE195;
+            } else if (type.startsWith("ERJ")) {
+              planeIcon = mBitmapERJ;
+            } else if (type.startsWith("U")) {
+              planeIcon = mBitmapBE200C;
+            } else if (type.startsWith("FA") || type.startsWith("F2") || type.startsWith("GL") || 
+                type.startsWith("LJ") || type.startsWith("C56") || type.startsWith("E5")) {
+              planeIcon = mBitmapBizjet;
             } else {
               planeIcon = mBitmapCessna;
             }

@@ -29,12 +29,16 @@ import java.util.List;
  */
 public class Landmarks {
 
+  private double currentLon = 0;
+  private double currentLat = 0;
+  private long timeLastRefreshed = 0;
+
   private static final String TAG = Landmarks.class.getSimpleName();
 
   /**
    * The threshold used to display a landmark on the compass.
    */
-  private static final double MAX_DISTANCE_KM = 10;
+  private static final double MAX_DISTANCE_KM = 20;
 
   /**
    * The list of landmarks loaded from resources.
@@ -61,23 +65,27 @@ public class Landmarks {
   }
 
   public synchronized void refreshFlights() {
+    if (currentLat * currentLon == 0) {
+      Log.i(TAG, "Can't refresh flights--no lat/long info.");
+      return;
+    }
+    if (System.currentTimeMillis() - timeLastRefreshed <= 5000) {
+      Log.i(TAG, "Not refreshing flights--timeout not exceeded.");
+      return;
+    }
     Log.i(TAG, "Refreshing flights...");
     flightsLoaded.clear();
-    double[] box = FlightRetrieval.getBoundingBox(37.433982, -122.118807, MAX_DISTANCE_KM, null);
+    double[] box = FlightRetrieval.getBoundingBox(currentLat, currentLon, MAX_DISTANCE_KM, null);
     try {
       ArrayList<Flight> flights = FlightRetrieval.getFlights(box);
       flightsLoaded.addAll(flights);
     } catch (Exception e) {
       Log.e(TAG, e.getMessage(), e);
     }
+    timeLastRefreshed = System.currentTimeMillis();
   }
 
-  /**
-   * Gets a list of landmarks that are within ten kilometers of the specified coordinates. This
-   * function will never return null; if there are no locations within that threshold, then an empty
-   * list will be returned.
-   */
-  public List<Flight> getFlights(double latitude, double longitude) {
+  public List<Flight> getFlights() {
     return flightsLoaded;
   }
 
@@ -88,4 +96,9 @@ public class Landmarks {
     return null;
   }
 
+  public void setLocation(double latitude, double longitude) {
+    Log.i(TAG, String.format("Lat/long set to: %f/%f", latitude, longitude));
+    currentLat = latitude;
+    currentLon = longitude;
+  }
 }
