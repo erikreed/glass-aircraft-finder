@@ -16,10 +16,12 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import android.net.http.AndroidHttpClient;
 import android.os.StrictMode;
 import android.util.Log;
 
+/**
+ * @author Erik Reed
+ */
 public class FlightRetrieval {
 
   public static ArrayList<Flight> getFlights(double[] box) throws MalformedURLException,
@@ -97,9 +99,9 @@ public class FlightRetrieval {
     ArrayList<Flight> cleanedFlights = new ArrayList<Flight>(flights.size());
     for (Flight f : flights) {
       if (f.registration.startsWith("z.NO-REG") && f.flightNumber.startsWith("z.NO")) {
-        System.out.println("Removing flight (registration): " + f);
+        Log.d(FlightRetrieval.class.getName(), "Removing flight (no registration): " + f);
       } else if (f.altitude == 0) {
-        System.out.println("Removing flight (altitude): " + f);
+        Log.d(FlightRetrieval.class.getName(), "Removing flight (landed--i.e. zero altitude): " + f);
       } else {
         cleanedFlights.add(f);
       }

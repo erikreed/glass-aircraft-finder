@@ -14,7 +14,7 @@
 
 package com.google.android.glass.sample.compass;
 
-import com.google.android.glass.sample.compass.model.Landmarks;
+import com.google.android.glass.sample.compass.model.FlightManager;
 import com.google.android.glass.sample.compass.util.MathUtils;
 import com.google.android.glass.timeline.LiveCard;
 import com.google.android.glass.timeline.TimelineManager;
@@ -36,7 +36,7 @@ import android.speech.tts.TextToSpeech;
  */
 public class CompassService extends Service {
 
-  private static final String LIVE_CARD_ID = "compass_rove";
+  private static final String LIVE_CARD_ID = "aircraft_detector";
 
   /**
    * A binder that gives other components access to the speech capabilities provided by the service.
@@ -65,14 +65,14 @@ public class CompassService extends Service {
     }
 
     public void refreshFlights() {
-      mLandmarks.refreshFlights();
+      mFlightManager.refreshFlights();
     }
   }
 
   private final CompassBinder mBinder = new CompassBinder();
 
   private OrientationManager mOrientationManager;
-  private Landmarks mLandmarks;
+  private FlightManager mFlightManager;
   private TextToSpeech mSpeech;
 
   private TimelineManager mTimelineManager;
@@ -80,7 +80,7 @@ public class CompassService extends Service {
   private CompassRenderer mRenderer;
 
   public int getNumFlights() {
-    return mLandmarks.getNumFlights();
+    return mFlightManager.getNumFlights();
   }
   
   @Override
@@ -103,7 +103,7 @@ public class CompassService extends Service {
     LocationManager locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
 
     mOrientationManager = new OrientationManager(sensorManager, locationManager);
-    mLandmarks = new Landmarks(this);
+    mFlightManager = new FlightManager(this);
   }
 
   @Override
@@ -114,18 +114,16 @@ public class CompassService extends Service {
   @Override
   public int onStartCommand(Intent intent, int flags, int startId) {
     if (mLiveCard == null) {
-      mLiveCard = mTimelineManager.getLiveCard(LIVE_CARD_ID);
-      mRenderer = new CompassRenderer(this, mOrientationManager, mLandmarks);
-
-      mLiveCard.enableDirectRendering(true).getSurfaceHolder().addCallback(mRenderer);
-      mLiveCard.setNonSilent(true);
+      mLiveCard = mTimelineManager.createLiveCard(LIVE_CARD_ID);
+      mRenderer = new CompassRenderer(this, mOrientationManager, mFlightManager);
+      mLiveCard.setDirectRenderingEnabled(true).getSurfaceHolder().addCallback(mRenderer);
 
       // Display the options menu when the live card is tapped.
       Intent menuIntent = new Intent(this, CompassMenuActivity.class);
       menuIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
       mLiveCard.setAction(PendingIntent.getActivity(this, 0, menuIntent, 0));
 
-      mLiveCard.publish();
+      mLiveCard.publish(LiveCard.PublishMode.REVEAL);
     }
 
     return START_STICKY;
@@ -143,7 +141,7 @@ public class CompassService extends Service {
 
     mSpeech = null;
     mOrientationManager = null;
-    mLandmarks = null;
+    mFlightManager = null;
 
     super.onDestroy();
   }

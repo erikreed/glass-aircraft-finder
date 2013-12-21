@@ -18,7 +18,7 @@
 
     <!-- Launch-related strings. -->
     <string name="app_name">Compass Sample</string>
-    <string name="show_compass_voice_trigger">show a compass</string>
+    <string name="show_compass_voice_trigger">show aircraft</string>
 
     <!-- Strings describing locations. -->
     <string-array name="direction_abbreviations">

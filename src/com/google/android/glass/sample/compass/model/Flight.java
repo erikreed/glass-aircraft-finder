@@ -5,6 +5,9 @@ import java.lang.reflect.Field;
 import org.json.JSONArray;
 import org.json.JSONException;
 
+/**
+ * @author Erik Reed
+ */
 public class Flight {
 
   public final String identification;
@@ -18,7 +21,7 @@ public class Flight {
   public final double speed; // ground speed
   public final String timestamp; // zulu probably
   public final String airline;
-  public final String flightNumber2;
+  public final String flightNumber2; // not sure
   public final String[] path;
 
   public Flight(String identification, JSONArray input) throws JSONException {
@@ -50,7 +53,7 @@ public class Flight {
     return dump(this);
   }
 
-  public static String dump(Object o) {
+  private static String dump(Object o) {
     StringBuffer buffer = new StringBuffer();
     Class<? extends Object> oClass = o.getClass();
     if (oClass.isArray()) {

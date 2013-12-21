@@ -15,7 +15,6 @@
 package com.google.android.glass.sample.compass;
 
 import com.google.android.glass.sample.compass.model.Flight;
-import com.google.android.glass.sample.compass.model.Place;
 import com.google.android.glass.sample.compass.util.MathUtils;
 
 import android.animation.Animator;
@@ -34,7 +33,6 @@ import android.graphics.Typeface;
 import android.location.Location;
 import android.text.TextPaint;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.View;
 import android.view.animation.LinearInterpolator;
 
@@ -90,7 +88,6 @@ public class CompassView extends View {
   private final Paint mTickPaint;
   private final Path mPath;
   private final TextPaint mPlacePaint;
-  private final Bitmap mPlaceBitmap;
   private final Bitmap mBitmapCessna;
   private final Bitmap mBitmapAirbus320;
   private final Rect mTextBounds;
@@ -152,7 +149,6 @@ public class CompassView extends View {
     mDistanceFormat.setMinimumFractionDigits(0);
     mDistanceFormat.setMaximumFractionDigits(1);
 
-    mPlaceBitmap = BitmapFactory.decodeResource(context.getResources(), R.drawable.place_mark);
     mBitmapCessna = BitmapFactory.decodeResource(context.getResources(), R.drawable.cessna);
     mBitmapAirbus320 = BitmapFactory.decodeResource(context.getResources(), R.drawable.a320);
     mBitmapAirbus330 = BitmapFactory.decodeResource(context.getResources(), R.drawable.a330);

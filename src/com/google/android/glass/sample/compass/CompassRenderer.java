@@ -15,8 +15,7 @@
 package com.google.android.glass.sample.compass;
 
 import com.google.android.glass.sample.compass.model.Flight;
-import com.google.android.glass.sample.compass.model.Landmarks;
-import com.google.android.glass.sample.compass.model.Place;
+import com.google.android.glass.sample.compass.model.FlightManager;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -67,7 +66,7 @@ public class CompassRenderer implements SurfaceHolder.Callback {
   private final RelativeLayout mTipsContainer;
   private final TextView mTipsView;
   private final OrientationManager mOrientationManager;
-  private final Landmarks mFlights;
+  private final FlightManager mFlights;
 
   private final OrientationManager.OnChangedListener mCompassListener =
       new OrientationManager.OnChangedListener() {
@@ -103,7 +102,7 @@ public class CompassRenderer implements SurfaceHolder.Callback {
    * Creates a new instance of the {@code CompassRenderer} with the specified context, orientation
    * manager, and landmark collection.
    */
-  public CompassRenderer(Context context, OrientationManager orientationManager, Landmarks landmarks) {
+  public CompassRenderer(Context context, OrientationManager orientationManager, FlightManager landmarks) {
     LayoutInflater inflater = LayoutInflater.from(context);
     mLayout = (FrameLayout) inflater.inflate(R.layout.compass, null);
     mLayout.setWillNotDraw(false);
