@@ -16,7 +16,6 @@ package com.google.android.glass.sample.compass;
 
 import com.google.android.glass.sample.compass.util.MathUtils;
 
-import android.content.Context;
 import android.hardware.GeomagneticField;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;

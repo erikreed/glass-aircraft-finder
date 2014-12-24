@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.net.MalformedURLException;
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.Locale;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.HttpStatus;
@@ -91,7 +92,7 @@ public class FlightRetrieval {
   }
 
   private static String getUrl(double[] box) {
-    return String.format("http://planefinder.net/endpoints/update.php?" + "faa=1&bounds="
+    return String.format(Locale.getDefault(), "http://planefinder.net/endpoints/update.php?" + "faa=1&bounds="
         + "%f,%f,%f,%f", box[0], box[1], box[2], box[3]);
   }
   

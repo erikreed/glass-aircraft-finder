@@ -14,8 +14,9 @@
 
 package com.google.android.glass.sample.compass;
 
-import com.google.android.glass.sample.compass.model.Flight;
-import com.google.android.glass.sample.compass.util.MathUtils;
+import java.text.NumberFormat;
+import java.util.ArrayList;
+import java.util.List;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -36,10 +37,8 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.view.animation.LinearInterpolator;
 
-import java.io.File;
-import java.text.NumberFormat;
-import java.util.ArrayList;
-import java.util.List;
+import com.google.android.glass.sample.compass.model.Flight;
+import com.google.android.glass.sample.compass.util.MathUtils;
 
 /**
  * Draws a stylized compass, with text labels at the cardinal and ordinal directions, and tick marks
@@ -125,7 +124,7 @@ public class CompassView extends View {
     mPaint.setStyle(Paint.Style.FILL);
     mPaint.setAntiAlias(true);
     mPaint.setTextSize(DIRECTION_TEXT_HEIGHT);
-    mPaint.setTypeface(Typeface.createFromFile(new File("/system/glass_fonts", "Roboto-Thin.ttf")));
+    mPaint.setTypeface(Typeface.create("sans-serif-thin", Typeface.NORMAL));
 
     mTickPaint = new Paint();
     mTickPaint.setStyle(Paint.Style.STROKE);
@@ -138,9 +137,8 @@ public class CompassView extends View {
     mPlacePaint.setAntiAlias(true);
     mPlacePaint.setColor(Color.WHITE);
     mPlacePaint.setTextSize(PLACE_TEXT_HEIGHT);
-    mPlacePaint.setTypeface(Typeface.createFromFile(new File("/system/glass_fonts",
-        "Roboto-Light.ttf")));
-
+    mPlacePaint.setTypeface(Typeface.create("sans-serif-light", Typeface.NORMAL));
+    
     mPath = new Path();
     mTextBounds = new Rect();
     mAllBounds = new ArrayList<Rect>();

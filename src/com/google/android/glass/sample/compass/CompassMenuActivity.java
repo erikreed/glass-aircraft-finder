@@ -16,17 +16,12 @@ package com.google.android.glass.sample.compass;
 
 import android.app.Activity;
 import android.content.ComponentName;
-import android.content.Context;
 import android.content.Intent;
 import android.content.ServiceConnection;
 import android.os.Bundle;
 import android.os.IBinder;
-import android.os.PowerManager;
-import android.os.PowerManager.WakeLock;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.view.WindowManager;
 
 /**
  * This activity manages the options menu that appears when the user taps on the compass's live
@@ -62,6 +57,12 @@ public class CompassMenuActivity extends Activity {
   protected void onResume() {
     super.onResume();
     mResumed = true;
+//    openOptionsMenu();
+  }
+  
+  @Override
+  public void onAttachedToWindow() {
+    super.onAttachedToWindow();
     openOptionsMenu();
   }
 

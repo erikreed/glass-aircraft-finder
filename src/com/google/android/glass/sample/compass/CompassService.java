@@ -14,11 +14,6 @@
 
 package com.google.android.glass.sample.compass;
 
-import com.google.android.glass.sample.compass.model.FlightManager;
-import com.google.android.glass.sample.compass.util.MathUtils;
-import com.google.android.glass.timeline.LiveCard;
-import com.google.android.glass.timeline.TimelineManager;
-
 import android.app.PendingIntent;
 import android.app.Service;
 import android.content.Context;
@@ -29,6 +24,10 @@ import android.location.LocationManager;
 import android.os.Binder;
 import android.os.IBinder;
 import android.speech.tts.TextToSpeech;
+
+import com.google.android.glass.sample.compass.model.FlightManager;
+import com.google.android.glass.sample.compass.util.MathUtils;
+import com.google.android.glass.timeline.LiveCard;
 
 /**
  * The main application service that manages the lifetime of the compass live card and the objects
@@ -75,7 +74,6 @@ public class CompassService extends Service {
   private FlightManager mFlightManager;
   private TextToSpeech mSpeech;
 
-  private TimelineManager mTimelineManager;
   private LiveCard mLiveCard;
   private CompassRenderer mRenderer;
 
@@ -86,8 +84,6 @@ public class CompassService extends Service {
   @Override
   public void onCreate() {
     super.onCreate();
-
-    mTimelineManager = TimelineManager.from(this);
 
     // Even though the text-to-speech engine is only used in response to a menu action, we
     // initialize it when the application starts so that we avoid delays that could occur
@@ -114,7 +110,7 @@ public class CompassService extends Service {
   @Override
   public int onStartCommand(Intent intent, int flags, int startId) {
     if (mLiveCard == null) {
-      mLiveCard = mTimelineManager.createLiveCard(LIVE_CARD_ID);
+      mLiveCard = new LiveCard(this, LIVE_CARD_ID);
       mRenderer = new CompassRenderer(this, mOrientationManager, mFlightManager);
       mLiveCard.setDirectRenderingEnabled(true).getSurfaceHolder().addCallback(mRenderer);
 
@@ -122,7 +118,7 @@ public class CompassService extends Service {
       Intent menuIntent = new Intent(this, CompassMenuActivity.class);
       menuIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
       mLiveCard.setAction(PendingIntent.getActivity(this, 0, menuIntent, 0));
-
+      mLiveCard.attach(this);
       mLiveCard.publish(LiveCard.PublishMode.REVEAL);
     }
 
