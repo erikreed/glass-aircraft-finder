@@ -1,0 +1,4267 @@
+{
+  "paths": [],
+  "isPartial": true,
+  "planes": [
+    {
+      "ac0679": [
+        "????",
+        "z.NO-REG",
+        "z.NO-ac0679",
+        37.6881,
+        -121.729,
+        6900,
+        96,
+        250,
+        "1386224353",
+        "Z.N",
+        "",
+        ""
+      ],
+      "A9ACB8": [
+        "B752",
+        "N722TW",
+        "DAL435",
+        37.5208,
+        -121.75,
+        9600,
+        253,
+        281,
+        "1386224354",
+        "DAL",
+        "DL435",
+        "JFK-SFO"
+      ],
+      "ac044f": [
+        "????",
+        "z.NO-REG",
+        "z.NO-ac044f",
+        37.7768,
+        -122.366,
+        6675,
+        337,
+        245,
+        "1386224338",
+        "Z.N",
+        "",
+        ""
+      ],
+      "A1903C": [
+        "BE99",
+        "N20FW",
+        "N20FW",
+        37.6573,
+        -122.031,
+        5800,
+        76,
+        167,
+        "1386224353",
+        "N20",
+        "",
+        ""
+      ],
+      "A85999": [
+        "A320",
+        "N637VA",
+        "VRD947",
+        37.6109,
+        -122.356,
+        -100,
+        297,
+        130,
+        "1386224255",
+        "VRD",
+        "VX947",
+        "LAX-SFO"
+      ],
+      "ac0070": [
+        "PA24",
+        "N8722P",
+        "z.NO-ac0070",
+        37.6466,
+        -122.436,
+        1400,
+        297,
+        191,
+        "1386224288",
+        "Z.N",
+        "",
+        ""
+      ],
+      "ac0263": [
+        "????",
+        "z.NO-REG",
+        "z.NO-ac0263",
+        37.5375,
+        -122.119,
+        3775,
+        292,
+        213,
+        "1386224353",
+        "Z.N",
+        "",
+        ""
+      ],
+      "AA7427": [
+        "B738",
+        "N77296",
+        "UAL1543",
+        37.5558,
+        -121.585,
+        11225,
+        261,
+        288,
+        "1386224354",
+        "UAL",
+        "UA1543",
+        "PHL-ORD-SFO"
+      ],
+      "A699A6": [
+        "A319",
+        "N524VA",
+        "VRD143",
+        37.5777,
+        -122.245,
+        1825,
+        290,
+        180,
+        "1386224354",
+        "VRD",
+        "VX143",
+        "PHL-SFO"
+      ],
+      "ac0303": [
+        "B350",
+        "N873RS",
+        "z.NO-ac0303",
+        37.5058,
+        -122.021,
+        5475,
+        292,
+        230,
+        "1386224352",
+        "Z.N",
+        "",
+        ""
+      ],
+      "AA7685": [
+        "B737",
+        "N7730A",
+        "@@@@@@@@",
+        37.7091,
+        -122.215,
+        0,
+        48,
+        15,
+        "1386224142",
+        "@@@",
+        "",
+        ""
+      ],
+      "AA56DA": [
+        "B738",
+        "N76528",
+        "UAL1120",
+        37.5727,
+        -121.437,
+        13025,
+        262,
+        320,
+        "1386224353",
+        "UAL",
+        "UA1120",
+        "SFO-LAX"
+      ],
+      "AA10C3": [
+        "A306",
+        "N748FD",
+        "FDX1813",
+        37.7176,
+        -122.22,
+        0,
+        312,
+        2,
+        "1386224274",
+        "FDX",
+        "",
+        "BOI-SLC"
+      ],
+      "ac062d": [
+        "????",
+        "z.NO-REG",
+        "z.NO-ac062d",
+        37.589,
+        -122.299,
+        975,
+        293,
+        138,
+        "1386224280",
+        "Z.N",
+        "",
+        ""
+      ],
+      "A6329D": [
+        "B744",
+        "N499MC",
+        "PAC927",
+        36.7718,
+        -122.074,
+        31950,
+        317,
+        440,
+        "1386224355",
+        "PAC",
+        "PO927",
+        "LAX-ICN-HKG"
+      ],
+      "AB9F6D": [
+        "A320",
+        "N848VA",
+        "VRD544",
+        37.3298,
+        -121.894,
+        500,
+        319,
+        124,
+        "1386224254",
+        "VRD",
+        "VX544",
+        "LAX-SJC"
+      ],
+      "ABA324": [
+        "A320",
+        "N849VA",
+        "VRD029",
+        37.5748,
+        -122.34,
+        9850,
+        156,
+        264,
+        "1386224354",
+        "VRD",
+        "VX29",
+        "JFK-SFO"
+      ],
+      "A9F6C2": [
+        "A306",
+        "N741FD",
+        "FDX1802",
+        38.2197,
+        -122.572,
+        10050,
+        177,
+        309,
+        "1386224353",
+        "FDX",
+        "FX1802",
+        "SEA-OAK"
+      ]
+    },
+    {
+      "AB2C8E": [
+        "A319",
+        "N819UA",
+        "UA498",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "UAL",
+        "YVR-SFO-SAN"
+      ],
+      "US414": [
+        "A321",
+        "z.NO-REG",
+        "US414",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "AWE",
+        "DCA-PHX-SFO"
+      ],
+      "A15739": [
+        "C172",
+        "N186CS",
+        "N186CS",
+        37.79,
+        -121.26,
+        3100,
+        63,
+        112,
+        "1386223980",
+        "",
+        "?-?"
+      ],
+      "AA2BC1": [
+        "B739",
+        "N75432",
+        "UA1033",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "UAL",
+        "PTY-IAH-SFO"
+      ],
+      "AMF1091": [
+        "BE99",
+        "z.NO-REG",
+        "AMF1091",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "AMF",
+        "RNO-SFO"
+      ],
+      "WN1279": [
+        "B737",
+        "z.NO-REG",
+        "WN1279",
+        37.72,
+        -122.22,
+        0,
+        0,
+        0,
+        "1386223980",
+        "SWA",
+        "ONT-OAK"
+      ],
+      "WN2336": [
+        "B737",
+        "z.NO-REG",
+        "WN2336",
+        37.36,
+        -121.93,
+        0,
+        0,
+        0,
+        "1386223980",
+        "SWA",
+        "SNA-SJC"
+      ],
+      "UA503": [
+        "B752",
+        "z.NO-REG",
+        "UA503",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "UAL",
+        "BOS-SFO"
+      ],
+      "A8BD5C": [
+        "C182",
+        "N662TM",
+        "N662TM",
+        37.83,
+        -122.47,
+        4100,
+        347,
+        132,
+        "1386223980",
+        "",
+        "?-?"
+      ],
+      "AS463": [
+        "B739",
+        "z.NO-REG",
+        "AS463",
+        36.69,
+        -121.14,
+        36000,
+        356,
+        443,
+        "1386223980",
+        "ASA",
+        "LAX-SEA"
+      ],
+      "UA1737": [
+        "B738",
+        "z.NO-REG",
+        "UA1737",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "UAL",
+        "IAD-SFO-PHL"
+      ],
+      "WN2622": [
+        "B737",
+        "z.NO-REG",
+        "WN2622",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "SWA",
+        "BOS-MCI-LAX-SFO"
+      ],
+      "AA7685": [
+        "B737",
+        "N7730A",
+        "WN197",
+        37.72,
+        -122.22,
+        0,
+        0,
+        0,
+        "1386223980",
+        "SWA",
+        "BUR-OAK"
+      ],
+      "WN409": [
+        "B737",
+        "z.NO-REG",
+        "WN409",
+        37.36,
+        -121.93,
+        0,
+        0,
+        0,
+        "1386223980",
+        "SWA",
+        "BWI-BNA-PNS-HOU-AUS-SJC"
+      ],
+      "AS302": [
+        "B739",
+        "z.NO-REG",
+        "AS302",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "ASA",
+        "SEA-SFO"
+      ],
+      "A43EA3": [
+        "B738",
+        "N37274",
+        "UA1645",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "UAL",
+        "FLL-SFO"
+      ],
+      "UA5206": [
+        "CRJ7",
+        "z.NO-REG",
+        "UA5206",
+        36.72,
+        -121.37,
+        27900,
+        110,
+        476,
+        "1386223980",
+        "UAL",
+        "SFO-PHX"
+      ],
+      "US601P": [
+        "A320",
+        "z.NO-REG",
+        "US601P",
+        37.36,
+        -121.93,
+        0,
+        0,
+        0,
+        "1386223980",
+        "AWE",
+        "PHX-SJC"
+      ],
+      "UA1099": [
+        "B739",
+        "z.NO-REG",
+        "UA1099",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "UAL",
+        "MSY-SFO"
+      ],
+      "A72C41": [
+        "C560",
+        "N561SR",
+        "N561SR",
+        37.42,
+        -122.05,
+        0,
+        0,
+        0,
+        "1386223980",
+        "SGY",
+        "VNY-NUQ"
+      ],
+      "EJA130": [
+        "GL5T",
+        "z.NO-REG",
+        "EJA130",
+        37.72,
+        -122.22,
+        0,
+        0,
+        0,
+        "1386223980",
+        "EJA",
+        "BFI-SJC"
+      ],
+      "C06F1D": [
+        "A320",
+        "C-GQCA",
+        "AC739",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "ACA",
+        "YYZ-SFO"
+      ],
+      "ABB0A2": [
+        "A320",
+        "N852VA",
+        "VX759",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "VRD",
+        "SEA-SFO"
+      ],
+      "WN175": [
+        "B737",
+        "z.NO-REG",
+        "WN175",
+        37.36,
+        -121.93,
+        0,
+        0,
+        0,
+        "1386223980",
+        "SWA",
+        "PHX-SJC"
+      ],
+      "UA1127": [
+        "B738",
+        "z.NO-REG",
+        "UA1127",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "UAL",
+        "EWR-SFO-EWR"
+      ],
+      "UA5416": [
+        "CRJ2",
+        "z.NO-REG",
+        "UA5416",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "UAL",
+        "SFO-ONT-SFO"
+      ],
+      "UA6269": [
+        "CRJ7",
+        "z.NO-REG",
+        "UA6269",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "UAL",
+        "YYC-SFO"
+      ],
+      "AD036E": [
+        "B738",
+        "N938AN",
+        "AA1536",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "AAL",
+        "DFW-SFO"
+      ],
+      "UA215T": [
+        "B752",
+        "z.NO-REG",
+        "UA215T",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "UAL",
+        "DEN-SFO"
+      ],
+      "US701P": [
+        "A321",
+        "z.NO-REG",
+        "US701P",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "AWE",
+        "PHL-SFO"
+      ],
+      "OPT427": [
+        "BE40",
+        "z.NO-REG",
+        "OPT427",
+        37.36,
+        -121.93,
+        0,
+        0,
+        0,
+        "1386223980",
+        "OPT",
+        "PHX-SJC"
+      ],
+      "A8E33B": [
+        "A320",
+        "N672AW",
+        "US627",
+        37.72,
+        -122.22,
+        0,
+        0,
+        0,
+        "1386223980",
+        "AWE",
+        "PIT-PHX-OAK"
+      ],
+      "DL4732": [
+        "CRJ9",
+        "z.NO-REG",
+        "DL4732",
+        37.72,
+        -122.22,
+        0,
+        0,
+        0,
+        "1386223980",
+        "DAL",
+        "LAX-OAK"
+      ],
+      "OPT422": [
+        "BE40",
+        "z.NO-REG",
+        "OPT422",
+        37.03,
+        -121.76,
+        24300,
+        135,
+        446,
+        "1386223980",
+        "OPT",
+        "MCC-SFO"
+      ],
+      "HA46": [
+        "B763",
+        "z.NO-REG",
+        "HA46",
+        37.36,
+        -121.93,
+        0,
+        0,
+        0,
+        "1386223980",
+        "HAL",
+        "OGG-SJC"
+      ],
+      "UA6293": [
+        "E120",
+        "z.NO-REG",
+        "UA6293",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "UAL",
+        "SFO-ACV-SFO"
+      ],
+      "AB7437": [
+        "A320",
+        "N837VA",
+        "VX2",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223500",
+        "VRD",
+        "DCA-SFO"
+      ],
+      "UA6294": [
+        "E120",
+        "z.NO-REG",
+        "UA6294",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223680",
+        "UAL",
+        "MFR-SFO"
+      ],
+      "UA6398": [
+        "CRJ7",
+        "z.NO-REG",
+        "UA6398",
+        37.78,
+        -122.24,
+        10300,
+        36,
+        233,
+        "1386223980",
+        "UAL",
+        "SFO-BOI"
+      ],
+      "UA461": [
+        "B752",
+        "z.NO-REG",
+        "UA461",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "UAL",
+        "SEA-IAH-SFO"
+      ],
+      "ACF5BE": [
+        "B738",
+        "N934NN",
+        "AA1427",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "AAL",
+        "DFW-SFO"
+      ],
+      "AA2595": [
+        "CRJ2",
+        "z.NO-REG",
+        "AA2595",
+        36.59,
+        -121.84,
+        0,
+        0,
+        0,
+        "1386223980",
+        "AAL",
+        "LAX-MRY"
+      ],
+      "UA5444": [
+        "E120",
+        "z.NO-REG",
+        "UA5444",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "UAL",
+        "SFO-RDD-SFO"
+      ],
+      "A138B8": [
+        "A321",
+        "N178US",
+        "US1779",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "AWE",
+        "CLT-SFO"
+      ],
+      "ACDED2": [
+        "P28A",
+        "N9284M",
+        "N9284M",
+        37.72,
+        -122.2,
+        300,
+        22,
+        87,
+        "1386223980",
+        "",
+        "OAK-CCR"
+      ],
+      "A84CE2": [
+        "E175",
+        "N634CZ",
+        "DL5687",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "DAL",
+        "SLC-SFO"
+      ],
+      "A4BD40": [
+        "A320",
+        "N404UA",
+        "UA493T",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223800",
+        "UAL",
+        "ORD-SFO"
+      ],
+      "UA5448": [
+        "CRJ2",
+        "z.NO-REG",
+        "UA5448",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "UAL",
+        "SFO-RDM-SFO"
+      ],
+      "UA5303": [
+        "E120",
+        "z.NO-REG",
+        "UA5303",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "UAL",
+        "SFO-BFL-SFO"
+      ],
+      "WN2162": [
+        "B737",
+        "z.NO-REG",
+        "WN2162",
+        37.72,
+        -122.22,
+        0,
+        0,
+        0,
+        "1386223980",
+        "SWA",
+        "BWI-CHS-MDW-LAS-OAK"
+      ],
+      "UA1617": [
+        "B753",
+        "z.NO-REG",
+        "UA1617",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "UAL",
+        "LGA-ORD-SFO"
+      ],
+      "A7AD0D": [
+        "A320",
+        "N594JB",
+        "B6415",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "JBU",
+        "JFK-SFO"
+      ],
+      "WN441": [
+        "B737",
+        "z.NO-REG",
+        "WN441",
+        37.72,
+        -122.22,
+        0,
+        0,
+        0,
+        "1386223980",
+        "SWA",
+        "FLL-MDW-ICT-LAS-RNO-PHX-SAN-OAK"
+      ],
+      "A38DB2": [
+        "C172",
+        "N328TA",
+        "N328TA",
+        37.72,
+        -122.2,
+        300,
+        56,
+        75,
+        "1386223980",
+        "",
+        "OAK-1O3"
+      ],
+      "DL716": [
+        "B738",
+        "z.NO-REG",
+        "DL716",
+        37.55,
+        -121.51,
+        11800,
+        276,
+        330,
+        "1386223980",
+        "DAL",
+        "DTW-SFO"
+      ],
+      "AC4DFB": [
+        "B738",
+        "N892NN",
+        "AA2465",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "AAL",
+        "LAX-SFO"
+      ],
+      "A49510": [
+        "B739",
+        "N39475",
+        "UA1624",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "UAL",
+        "MCO-SFO-LAS"
+      ],
+      "UA6286": [
+        "E120",
+        "z.NO-REG",
+        "UA6286",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "UAL",
+        "SBA-SFO"
+      ],
+      "ABB089": [
+        "A319",
+        "N852UA",
+        "UA543",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "UAL",
+        "PHL-SFO"
+      ],
+      "A76F87": [
+        "B753",
+        "N57870",
+        "UA1728",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "UAL",
+        "OGG-SFO-LAX"
+      ],
+      "WN198": [
+        "B737",
+        "z.NO-REG",
+        "WN198",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "SWA",
+        "MDW-SFO-SNA"
+      ],
+      "DL2209": [
+        "B752",
+        "z.NO-REG",
+        "DL2209",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "DAL",
+        "MSP-SFO"
+      ],
+      "AS226": [
+        "B738",
+        "z.NO-REG",
+        "AS226",
+        37.36,
+        -121.93,
+        0,
+        0,
+        0,
+        "1386223980",
+        "ASA",
+        "SEA-SJC-GDL"
+      ],
+      "WN3328": [
+        "B737",
+        "z.NO-REG",
+        "WN3328",
+        36.99,
+        -121.44,
+        23400,
+        139,
+        409,
+        "1386223980",
+        "SWA",
+        "SJC-SAN"
+      ],
+      "UA5580": [
+        "CRJ2",
+        "z.NO-REG",
+        "UA5580",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "UAL",
+        "SFO-MFR"
+      ],
+      "WN304": [
+        "B737",
+        "z.NO-REG",
+        "WN304",
+        37.72,
+        -122.22,
+        0,
+        0,
+        0,
+        "1386223980",
+        "SWA",
+        "SEA-OAK"
+      ],
+      "A62F93": [
+        "A320",
+        "N498UA",
+        "UA453",
+        37.36,
+        -121.93,
+        0,
+        0,
+        0,
+        "1386223980",
+        "UAL",
+        "BWI-DEN-SJC"
+      ],
+      "DL4661": [
+        "CRJ9",
+        "z.NO-REG",
+        "DL4661",
+        37.36,
+        -121.93,
+        0,
+        0,
+        0,
+        "1386223980",
+        "DAL",
+        "LAX-SJC"
+      ],
+      "UA5356": [
+        "E120",
+        "z.NO-REG",
+        "UA5356",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "UAL",
+        "SMF-SFO"
+      ],
+      "UA5451": [
+        "E120",
+        "z.NO-REG",
+        "UA5451",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "UAL",
+        "SFO-SBP-SFO"
+      ],
+      "A620B7": [
+        "A320",
+        "N494UA",
+        "UA995",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "UAL",
+        "PDX-SFO"
+      ],
+      "ABA30B": [
+        "A319",
+        "N849UA",
+        "UA488",
+        37.36,
+        -121.93,
+        0,
+        0,
+        0,
+        "1386223980",
+        "UAL",
+        "EWR-IAH-SJC"
+      ],
+      "UA6432": [
+        "CRJ7",
+        "z.NO-REG",
+        "UA6432",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223560",
+        "UAL",
+        "SFO-SNA-SFO"
+      ],
+      "WN1368": [
+        "B737",
+        "z.NO-REG",
+        "WN1368",
+        37.52,
+        -122.11,
+        20200,
+        102,
+        377,
+        "1386223980",
+        "SWA",
+        "OAK-LAS"
+      ],
+      "URF7": [
+        "PC12",
+        "z.NO-REG",
+        "URF7",
+        37.51,
+        -122.25,
+        0,
+        0,
+        0,
+        "1386223560",
+        "URF",
+        "BUR-SQL"
+      ],
+      "WN634": [
+        "B737",
+        "z.NO-REG",
+        "WN634",
+        37.72,
+        -122.22,
+        0,
+        0,
+        0,
+        "1386223980",
+        "SWA",
+        "BWI-PVD-MDW-RDU-LAS-SAN-OAK"
+      ],
+      "WN1019": [
+        "B737",
+        "z.NO-REG",
+        "WN1019",
+        37.72,
+        -122.22,
+        0,
+        0,
+        0,
+        "1386223980",
+        "SWA",
+        "SNA-OAK"
+      ],
+      "UA1057": [
+        "B753",
+        "z.NO-REG",
+        "UA1057",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "UAL",
+        "LAX-IAD-SFO"
+      ],
+      "A83988": [
+        "A320",
+        "N629VA",
+        "VX717",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "VRD",
+        "DFW-SFO"
+      ],
+      "WN110": [
+        "B737",
+        "z.NO-REG",
+        "WN110",
+        37.72,
+        -122.22,
+        0,
+        0,
+        0,
+        "1386223980",
+        "SWA",
+        "PHX-OAK"
+      ],
+      "A8434F": [
+        "A320",
+        "N631VA",
+        "VX193",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "VRD",
+        "EWR-SFO"
+      ],
+      "AA2801": [
+        "CRJ7",
+        "z.NO-REG",
+        "AA2801",
+        36.58,
+        -121.53,
+        14900,
+        338,
+        366,
+        "1386223980",
+        "AAL",
+        "LAX-SJC"
+      ],
+      "UA5461": [
+        "E120",
+        "z.NO-REG",
+        "UA5461",
+        37.62,
+        -122.37,
+        4000,
+        89,
+        175,
+        "1386223980",
+        "UAL",
+        "SFO-MOD"
+      ],
+      "AD9E4D": [
+        "FA7X",
+        "N977GS",
+        "N977GS",
+        37.36,
+        -121.93,
+        0,
+        0,
+        0,
+        "1386223980",
+        "",
+        "TEB-SJC"
+      ],
+      "A2337A": [
+        "PA38",
+        "N2408L",
+        "N2408L",
+        37.89,
+        -121.24,
+        0,
+        0,
+        0,
+        "1386223980",
+        "",
+        "-SCK"
+      ],
+      "WN1020": [
+        "B737",
+        "z.NO-REG",
+        "WN1020",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "SWA",
+        "ABQ-PHX-SFO"
+      ],
+      "A3AD5A": [
+        "A320",
+        "N336NW",
+        "DL1253",
+        37.72,
+        -122.22,
+        0,
+        0,
+        0,
+        "1386223980",
+        "DAL",
+        "SLC-OAK"
+      ],
+      "ABAFFF": [
+        "B738",
+        "N852NN",
+        "AA2411",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "AAL",
+        "DFW-SFO"
+      ],
+      "A47195": [
+        "B763",
+        "N386AA",
+        "AA85",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223680",
+        "AAL",
+        "JFK-SFO"
+      ],
+      "WN34": [
+        "B737",
+        "z.NO-REG",
+        "WN34",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "SWA",
+        "MDW-ATL-HOU-DAL-OKC-PHX-SNA-SFO"
+      ],
+      "AA177": [
+        "B762",
+        "z.NO-REG",
+        "AA177",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "AAL",
+        "JFK-SFO"
+      ],
+      "EJA120": [
+        "BE40",
+        "z.NO-REG",
+        "EJA120",
+        36.71,
+        -121.88,
+        17600,
+        337,
+        370,
+        "1386223980",
+        "EJA",
+        "VNY-SFO"
+      ],
+      "A81ABE": [
+        "A320",
+        "N621JB",
+        "B6669",
+        37.09,
+        -121.5,
+        7200,
+        309,
+        269,
+        "1386223980",
+        "JBU",
+        "JFK-SJC"
+      ],
+      "DL241": [
+        "B752",
+        "z.NO-REG",
+        "DL241",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "DAL",
+        "FCO-ATL-SFO"
+      ],
+      "A7EF08": [
+        "E175",
+        "N610CZ",
+        "DL5854",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "DAL",
+        "LAX-SFO"
+      ],
+      "ABB459": [
+        "A320",
+        "N853VA",
+        "VX945",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "VRD",
+        "LAX-SFO"
+      ],
+      "AS379": [
+        "B734",
+        "z.NO-REG",
+        "AS379",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "ASA",
+        "PDX-SFO"
+      ],
+      "A4B989": [
+        "A320",
+        "N403UA",
+        "UA829",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "UAL",
+        "DFW-SFO-SEA"
+      ],
+      "UA6255": [
+        "CRJ7",
+        "z.NO-REG",
+        "UA6255",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "UAL",
+        "AUS-SFO"
+      ],
+      "A69238": [
+        "A319",
+        "N522VA",
+        "VX969",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "VRD",
+        "SAN-SFO"
+      ],
+      "WN3044": [
+        "B737",
+        "z.NO-REG",
+        "WN3044",
+        37.11,
+        -121.24,
+        16100,
+        308,
+        358,
+        "1386223980",
+        "SWA",
+        "SNA-OAK"
+      ],
+      "UA5600": [
+        "CRJ2",
+        "z.NO-REG",
+        "UA5600",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "UAL",
+        "BUR-SFO"
+      ],
+      "A5FCEF": [
+        "A320",
+        "N485UA",
+        "UA435",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "UAL",
+        "STL-SFO"
+      ],
+      "DL1684": [
+        "B738",
+        "z.NO-REG",
+        "DL1684",
+        37.11,
+        -121.12,
+        11900,
+        292,
+        339,
+        "1386223980",
+        "DAL",
+        "ATL-SJC-ATL"
+      ],
+      "AS832": [
+        "B738",
+        "z.NO-REG",
+        "AS832",
+        37.36,
+        -121.93,
+        0,
+        0,
+        0,
+        "1386223980",
+        "ASA",
+        "HNL-SJC"
+      ],
+      "A44031": [
+        "A320",
+        "N373NW",
+        "DL2412",
+        37.36,
+        -121.93,
+        0,
+        0,
+        0,
+        "1386223980",
+        "DAL",
+        "SLC-SJC"
+      ],
+      "A9A113": [
+        "U21",
+        "N7199D",
+        "N7199D",
+        38,
+        -122.05,
+        800,
+        40,
+        115,
+        "1386223980",
+        "",
+        "?-?"
+      ],
+      "A4671F": [
+        "A332",
+        "N383HA",
+        "HA12",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "HAL",
+        "HNL-SFO"
+      ],
+      "A81A3E": [
+        "E175",
+        "N621CZ",
+        "DL5856",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "DAL",
+        "LAX-SFO"
+      ],
+      "UA6252": [
+        "CRJ2",
+        "z.NO-REG",
+        "UA6252",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223800",
+        "UAL",
+        "SFO-EUG-SFO"
+      ],
+      "AS404": [
+        "B738",
+        "z.NO-REG",
+        "AS404",
+        37.36,
+        -121.93,
+        0,
+        0,
+        0,
+        "1386223980",
+        "ASA",
+        "PDX-SJC"
+      ],
+      "WN3239": [
+        "B737",
+        "z.NO-REG",
+        "WN3239",
+        37.36,
+        -121.93,
+        0,
+        0,
+        0,
+        "1386223980",
+        "SWA",
+        "ONT-SJC"
+      ],
+      "A81E3E": [
+        "LJ40",
+        "N622FX",
+        "BJS622",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "BJS",
+        "BUR-SFO"
+      ],
+      "A4EFE4": [
+        "A320",
+        "N417UA",
+        "UA647",
+        37.49,
+        -121.95,
+        7600,
+        291,
+        229,
+        "1386223980",
+        "UAL",
+        "IAD-SFO"
+      ],
+      "UA512": [
+        "B752",
+        "z.NO-REG",
+        "UA512",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "UAL",
+        "JFK-SFO"
+      ],
+      "WN259": [
+        "B737",
+        "z.NO-REG",
+        "WN259",
+        37.36,
+        -121.93,
+        0,
+        0,
+        0,
+        "1386223980",
+        "SWA",
+        "TUL-HOU-FLL-MKE-LAS-SJC-SNA"
+      ],
+      "UA1471": [
+        "B737",
+        "z.NO-REG",
+        "UA1471",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "UAL",
+        "SNA-SFO"
+      ],
+      "AMF238": [
+        "PA31",
+        "z.NO-REG",
+        "AMF238",
+        37.66,
+        -122.12,
+        0,
+        0,
+        0,
+        "1386223980",
+        "AMF",
+        "VIS-FAT"
+      ],
+      "UA389": [
+        "B752",
+        "z.NO-REG",
+        "UA389",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "UAL",
+        "JFK-SFO"
+      ],
+      "AB5B8C": [
+        "B738",
+        "N8306H",
+        "WN428",
+        37.36,
+        -121.93,
+        0,
+        0,
+        0,
+        "1386223980",
+        "SWA",
+        "SAT-SAN-PHX-SJC"
+      ],
+      "WN2448": [
+        "B733",
+        "z.NO-REG",
+        "WN2448",
+        37.36,
+        -121.93,
+        0,
+        0,
+        0,
+        "1386223980",
+        "SWA",
+        "PDX-SJC-ONT"
+      ],
+      "A752EA": [
+        "A320",
+        "N571JB",
+        "B6448",
+        37.72,
+        -122.22,
+        0,
+        0,
+        0,
+        "1386223980",
+        "JBU",
+        "LGB-OAK"
+      ],
+      "UA6862": [
+        "A320",
+        "z.NO-REG",
+        "UA6862",
+        37.59,
+        -121.32,
+        17300,
+        272,
+        366,
+        "1386223980",
+        "UAL",
+        "LAS-SFO"
+      ],
+      "REH50": [
+        "BE20",
+        "z.NO-REG",
+        "REH50",
+        37.99,
+        -122.06,
+        0,
+        0,
+        0,
+        "1386223980",
+        "REH",
+        "LGB-CCR"
+      ],
+      "AMF230": [
+        "PA31",
+        "z.NO-REG",
+        "AMF230",
+        37.66,
+        -122.12,
+        0,
+        0,
+        0,
+        "1386223980",
+        "AMF",
+        "EKA-UKI"
+      ],
+      "WN1374": [
+        "B737",
+        "z.NO-REG",
+        "WN1374",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "SWA",
+        "SEA-PHX-SFO"
+      ],
+      "UA1720": [
+        "B738",
+        "z.NO-REG",
+        "UA1720",
+        37.62,
+        -122.37,
+        0,
+        0,
+        0,
+        "1386223980",
+        "UAL",
+        "HNL-SFO-IAD"
+      ],
+      "A2718A": [
+        "F2TX",
+        "N257AL",
+        "N257AL",
+        37.36,
+        -121.93,
+        0,
+        0,
+        0,
+        "1386223980",
+        "",
+        "TEB-SJC"
+      ]
+    }
+  ]
+}
+[Class: Flight{
+identification=ac0679
+type=????
+registration=z.NO-REG
+flightNumber=z.NO-ac0679
+latitude=37.6881
+longitude=-121.729
+altitude=6900.0
+angle=96.0
+speed=250.0
+timestamp=1386224353
+airline=Z.N
+flightNumber2=
+path=Array: []
+
+}
+, Class: Flight{
+identification=A9ACB8
+type=B752
+registration=N722TW
+flightNumber=DAL435
+latitude=37.5208
+longitude=-121.75
+altitude=9600.0
+angle=253.0
+speed=281.0
+timestamp=1386224354
+airline=DAL
+flightNumber2=DL435
+path=Array: [JFK,SFO]
+
+}
+, Class: Flight{
+identification=ac044f
+type=????
+registration=z.NO-REG
+flightNumber=z.NO-ac044f
+latitude=37.7768
+longitude=-122.366
+altitude=6675.0
+angle=337.0
+speed=245.0
+timestamp=1386224338
+airline=Z.N
+flightNumber2=
+path=Array: []
+
+}
+, Class: Flight{
+identification=A1903C
+type=BE99
+registration=N20FW
+flightNumber=N20FW
+latitude=37.6573
+longitude=-122.031
+altitude=5800.0
+angle=76.0
+speed=167.0
+timestamp=1386224353
+airline=N20
+flightNumber2=
+path=Array: []
+
+}
+, Class: Flight{
+identification=A85999
+type=A320
+registration=N637VA
+flightNumber=VRD947
+latitude=37.6109
+longitude=-122.356
+altitude=-100.0
+angle=297.0
+speed=130.0
+timestamp=1386224255
+airline=VRD
+flightNumber2=VX947
+path=Array: [LAX,SFO]
+
+}
+, Class: Flight{
+identification=ac0070
+type=PA24
+registration=N8722P
+flightNumber=z.NO-ac0070
+latitude=37.6466
+longitude=-122.436
+altitude=1400.0
+angle=297.0
+speed=191.0
+timestamp=1386224288
+airline=Z.N
+flightNumber2=
+path=Array: []
+
+}
+, Class: Flight{
+identification=ac0263
+type=????
+registration=z.NO-REG
+flightNumber=z.NO-ac0263
+latitude=37.5375
+longitude=-122.119
+altitude=3775.0
+angle=292.0
+speed=213.0
+timestamp=1386224353
+airline=Z.N
+flightNumber2=
+path=Array: []
+
+}
+, Class: Flight{
+identification=AA7427
+type=B738
+registration=N77296
+flightNumber=UAL1543
+latitude=37.5558
+longitude=-121.585
+altitude=11225.0
+angle=261.0
+speed=288.0
+timestamp=1386224354
+airline=UAL
+flightNumber2=UA1543
+path=Array: [PHL,ORD,SFO]
+
+}
+, Class: Flight{
+identification=A699A6
+type=A319
+registration=N524VA
+flightNumber=VRD143
+latitude=37.5777
+longitude=-122.245
+altitude=1825.0
+angle=290.0
+speed=180.0
+timestamp=1386224354
+airline=VRD
+flightNumber2=VX143
+path=Array: [PHL,SFO]
+
+}
+, Class: Flight{
+identification=ac0303
+type=B350
+registration=N873RS
+flightNumber=z.NO-ac0303
+latitude=37.5058
+longitude=-122.021
+altitude=5475.0
+angle=292.0
+speed=230.0
+timestamp=1386224352
+airline=Z.N
+flightNumber2=
+path=Array: []
+
+}
+, Class: Flight{
+identification=AA7685
+type=B737
+registration=N7730A
+flightNumber=@@@@@@@@
+latitude=37.7091
+longitude=-122.215
+altitude=0.0
+angle=48.0
+speed=15.0
+timestamp=1386224142
+airline=@@@
+flightNumber2=
+path=Array: []
+
+}
+, Class: Flight{
+identification=AA56DA
+type=B738
+registration=N76528
+flightNumber=UAL1120
+latitude=37.5727
+longitude=-121.437
+altitude=13025.0
+angle=262.0
+speed=320.0
+timestamp=1386224353
+airline=UAL
+flightNumber2=UA1120
+path=Array: [SFO,LAX]
+
+}
+, Class: Flight{
+identification=AA10C3
+type=A306
+registration=N748FD
+flightNumber=FDX1813
+latitude=37.7176
+longitude=-122.22
+altitude=0.0
+angle=312.0
+speed=2.0
+timestamp=1386224274
+airline=FDX
+flightNumber2=
+path=Array: [BOI,SLC]
+
+}
+, Class: Flight{
+identification=ac062d
+type=????
+registration=z.NO-REG
+flightNumber=z.NO-ac062d
+latitude=37.589
+longitude=-122.299
+altitude=975.0
+angle=293.0
+speed=138.0
+timestamp=1386224280
+airline=Z.N
+flightNumber2=
+path=Array: []
+
+}
+, Class: Flight{
+identification=A6329D
+type=B744
+registration=N499MC
+flightNumber=PAC927
+latitude=36.7718
+longitude=-122.074
+altitude=31950.0
+angle=317.0
+speed=440.0
+timestamp=1386224355
+airline=PAC
+flightNumber2=PO927
+path=Array: [LAX,ICN,HKG]
+
+}
+, Class: Flight{
+identification=AB9F6D
+type=A320
+registration=N848VA
+flightNumber=VRD544
+latitude=37.3298
+longitude=-121.894
+altitude=500.0
+angle=319.0
+speed=124.0
+timestamp=1386224254
+airline=VRD
+flightNumber2=VX544
+path=Array: [LAX,SJC]
+
+}
+, Class: Flight{
+identification=ABA324
+type=A320
+registration=N849VA
+flightNumber=VRD029
+latitude=37.5748
+longitude=-122.34
+altitude=9850.0
+angle=156.0
+speed=264.0
+timestamp=1386224354
+airline=VRD
+flightNumber2=VX29
+path=Array: [JFK,SFO]
+
+}
+, Class: Flight{
+identification=A9F6C2
+type=A306
+registration=N741FD
+flightNumber=FDX1802
+latitude=38.2197
+longitude=-122.572
+altitude=10050.0
+angle=177.0
+speed=309.0
+timestamp=1386224353
+airline=FDX
+flightNumber2=FX1802
+path=Array: [SEA,OAK]
+
+}
+, Class: Flight{
+identification=AB2C8E
+type=A319
+registration=N819UA
+flightNumber=UA498
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=UAL
+flightNumber2=N/A
+path=Array: [YVR,SFO,SAN]
+
+}
+, Class: Flight{
+identification=US414
+type=A321
+registration=z.NO-REG
+flightNumber=US414
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=AWE
+flightNumber2=N/A
+path=Array: [DCA,PHX,SFO]
+
+}
+, Class: Flight{
+identification=A15739
+type=C172
+registration=N186CS
+flightNumber=N186CS
+latitude=37.79
+longitude=-121.26
+altitude=3100.0
+angle=63.0
+speed=112.0
+timestamp=1386223980
+airline=
+flightNumber2=N/A
+path=Array: [?,?]
+
+}
+, Class: Flight{
+identification=AA2BC1
+type=B739
+registration=N75432
+flightNumber=UA1033
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=UAL
+flightNumber2=N/A
+path=Array: [PTY,IAH,SFO]
+
+}
+, Class: Flight{
+identification=AMF1091
+type=BE99
+registration=z.NO-REG
+flightNumber=AMF1091
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=AMF
+flightNumber2=N/A
+path=Array: [RNO,SFO]
+
+}
+, Class: Flight{
+identification=WN1279
+type=B737
+registration=z.NO-REG
+flightNumber=WN1279
+latitude=37.72
+longitude=-122.22
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=SWA
+flightNumber2=N/A
+path=Array: [ONT,OAK]
+
+}
+, Class: Flight{
+identification=WN2336
+type=B737
+registration=z.NO-REG
+flightNumber=WN2336
+latitude=37.36
+longitude=-121.93
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=SWA
+flightNumber2=N/A
+path=Array: [SNA,SJC]
+
+}
+, Class: Flight{
+identification=UA503
+type=B752
+registration=z.NO-REG
+flightNumber=UA503
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=UAL
+flightNumber2=N/A
+path=Array: [BOS,SFO]
+
+}
+, Class: Flight{
+identification=A8BD5C
+type=C182
+registration=N662TM
+flightNumber=N662TM
+latitude=37.83
+longitude=-122.47
+altitude=4100.0
+angle=347.0
+speed=132.0
+timestamp=1386223980
+airline=
+flightNumber2=N/A
+path=Array: [?,?]
+
+}
+, Class: Flight{
+identification=AS463
+type=B739
+registration=z.NO-REG
+flightNumber=AS463
+latitude=36.69
+longitude=-121.14
+altitude=36000.0
+angle=356.0
+speed=443.0
+timestamp=1386223980
+airline=ASA
+flightNumber2=N/A
+path=Array: [LAX,SEA]
+
+}
+, Class: Flight{
+identification=UA1737
+type=B738
+registration=z.NO-REG
+flightNumber=UA1737
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=UAL
+flightNumber2=N/A
+path=Array: [IAD,SFO,PHL]
+
+}
+, Class: Flight{
+identification=WN2622
+type=B737
+registration=z.NO-REG
+flightNumber=WN2622
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=SWA
+flightNumber2=N/A
+path=Array: [BOS,MCI,LAX,SFO]
+
+}
+, Class: Flight{
+identification=AA7685
+type=B737
+registration=N7730A
+flightNumber=WN197
+latitude=37.72
+longitude=-122.22
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=SWA
+flightNumber2=N/A
+path=Array: [BUR,OAK]
+
+}
+, Class: Flight{
+identification=WN409
+type=B737
+registration=z.NO-REG
+flightNumber=WN409
+latitude=37.36
+longitude=-121.93
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=SWA
+flightNumber2=N/A
+path=Array: [BWI,BNA,PNS,HOU,AUS,SJC]
+
+}
+, Class: Flight{
+identification=AS302
+type=B739
+registration=z.NO-REG
+flightNumber=AS302
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=ASA
+flightNumber2=N/A
+path=Array: [SEA,SFO]
+
+}
+, Class: Flight{
+identification=A43EA3
+type=B738
+registration=N37274
+flightNumber=UA1645
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=UAL
+flightNumber2=N/A
+path=Array: [FLL,SFO]
+
+}
+, Class: Flight{
+identification=UA5206
+type=CRJ7
+registration=z.NO-REG
+flightNumber=UA5206
+latitude=36.72
+longitude=-121.37
+altitude=27900.0
+angle=110.0
+speed=476.0
+timestamp=1386223980
+airline=UAL
+flightNumber2=N/A
+path=Array: [SFO,PHX]
+
+}
+, Class: Flight{
+identification=US601P
+type=A320
+registration=z.NO-REG
+flightNumber=US601P
+latitude=37.36
+longitude=-121.93
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=AWE
+flightNumber2=N/A
+path=Array: [PHX,SJC]
+
+}
+, Class: Flight{
+identification=UA1099
+type=B739
+registration=z.NO-REG
+flightNumber=UA1099
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=UAL
+flightNumber2=N/A
+path=Array: [MSY,SFO]
+
+}
+, Class: Flight{
+identification=A72C41
+type=C560
+registration=N561SR
+flightNumber=N561SR
+latitude=37.42
+longitude=-122.05
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=SGY
+flightNumber2=N/A
+path=Array: [VNY,NUQ]
+
+}
+, Class: Flight{
+identification=EJA130
+type=GL5T
+registration=z.NO-REG
+flightNumber=EJA130
+latitude=37.72
+longitude=-122.22
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=EJA
+flightNumber2=N/A
+path=Array: [BFI,SJC]
+
+}
+, Class: Flight{
+identification=C06F1D
+type=A320
+registration=C-GQCA
+flightNumber=AC739
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=ACA
+flightNumber2=N/A
+path=Array: [YYZ,SFO]
+
+}
+, Class: Flight{
+identification=ABB0A2
+type=A320
+registration=N852VA
+flightNumber=VX759
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=VRD
+flightNumber2=N/A
+path=Array: [SEA,SFO]
+
+}
+, Class: Flight{
+identification=WN175
+type=B737
+registration=z.NO-REG
+flightNumber=WN175
+latitude=37.36
+longitude=-121.93
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=SWA
+flightNumber2=N/A
+path=Array: [PHX,SJC]
+
+}
+, Class: Flight{
+identification=UA1127
+type=B738
+registration=z.NO-REG
+flightNumber=UA1127
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=UAL
+flightNumber2=N/A
+path=Array: [EWR,SFO,EWR]
+
+}
+, Class: Flight{
+identification=UA5416
+type=CRJ2
+registration=z.NO-REG
+flightNumber=UA5416
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=UAL
+flightNumber2=N/A
+path=Array: [SFO,ONT,SFO]
+
+}
+, Class: Flight{
+identification=UA6269
+type=CRJ7
+registration=z.NO-REG
+flightNumber=UA6269
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=UAL
+flightNumber2=N/A
+path=Array: [YYC,SFO]
+
+}
+, Class: Flight{
+identification=AD036E
+type=B738
+registration=N938AN
+flightNumber=AA1536
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=AAL
+flightNumber2=N/A
+path=Array: [DFW,SFO]
+
+}
+, Class: Flight{
+identification=UA215T
+type=B752
+registration=z.NO-REG
+flightNumber=UA215T
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=UAL
+flightNumber2=N/A
+path=Array: [DEN,SFO]
+
+}
+, Class: Flight{
+identification=US701P
+type=A321
+registration=z.NO-REG
+flightNumber=US701P
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=AWE
+flightNumber2=N/A
+path=Array: [PHL,SFO]
+
+}
+, Class: Flight{
+identification=OPT427
+type=BE40
+registration=z.NO-REG
+flightNumber=OPT427
+latitude=37.36
+longitude=-121.93
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=OPT
+flightNumber2=N/A
+path=Array: [PHX,SJC]
+
+}
+, Class: Flight{
+identification=A8E33B
+type=A320
+registration=N672AW
+flightNumber=US627
+latitude=37.72
+longitude=-122.22
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=AWE
+flightNumber2=N/A
+path=Array: [PIT,PHX,OAK]
+
+}
+, Class: Flight{
+identification=DL4732
+type=CRJ9
+registration=z.NO-REG
+flightNumber=DL4732
+latitude=37.72
+longitude=-122.22
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=DAL
+flightNumber2=N/A
+path=Array: [LAX,OAK]
+
+}
+, Class: Flight{
+identification=OPT422
+type=BE40
+registration=z.NO-REG
+flightNumber=OPT422
+latitude=37.03
+longitude=-121.76
+altitude=24300.0
+angle=135.0
+speed=446.0
+timestamp=1386223980
+airline=OPT
+flightNumber2=N/A
+path=Array: [MCC,SFO]
+
+}
+, Class: Flight{
+identification=HA46
+type=B763
+registration=z.NO-REG
+flightNumber=HA46
+latitude=37.36
+longitude=-121.93
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=HAL
+flightNumber2=N/A
+path=Array: [OGG,SJC]
+
+}
+, Class: Flight{
+identification=UA6293
+type=E120
+registration=z.NO-REG
+flightNumber=UA6293
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=UAL
+flightNumber2=N/A
+path=Array: [SFO,ACV,SFO]
+
+}
+, Class: Flight{
+identification=AB7437
+type=A320
+registration=N837VA
+flightNumber=VX2
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223500
+airline=VRD
+flightNumber2=N/A
+path=Array: [DCA,SFO]
+
+}
+, Class: Flight{
+identification=UA6294
+type=E120
+registration=z.NO-REG
+flightNumber=UA6294
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223680
+airline=UAL
+flightNumber2=N/A
+path=Array: [MFR,SFO]
+
+}
+, Class: Flight{
+identification=UA6398
+type=CRJ7
+registration=z.NO-REG
+flightNumber=UA6398
+latitude=37.78
+longitude=-122.24
+altitude=10300.0
+angle=36.0
+speed=233.0
+timestamp=1386223980
+airline=UAL
+flightNumber2=N/A
+path=Array: [SFO,BOI]
+
+}
+, Class: Flight{
+identification=UA461
+type=B752
+registration=z.NO-REG
+flightNumber=UA461
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=UAL
+flightNumber2=N/A
+path=Array: [SEA,IAH,SFO]
+
+}
+, Class: Flight{
+identification=ACF5BE
+type=B738
+registration=N934NN
+flightNumber=AA1427
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=AAL
+flightNumber2=N/A
+path=Array: [DFW,SFO]
+
+}
+, Class: Flight{
+identification=AA2595
+type=CRJ2
+registration=z.NO-REG
+flightNumber=AA2595
+latitude=36.59
+longitude=-121.84
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=AAL
+flightNumber2=N/A
+path=Array: [LAX,MRY]
+
+}
+, Class: Flight{
+identification=UA5444
+type=E120
+registration=z.NO-REG
+flightNumber=UA5444
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=UAL
+flightNumber2=N/A
+path=Array: [SFO,RDD,SFO]
+
+}
+, Class: Flight{
+identification=A138B8
+type=A321
+registration=N178US
+flightNumber=US1779
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=AWE
+flightNumber2=N/A
+path=Array: [CLT,SFO]
+
+}
+, Class: Flight{
+identification=ACDED2
+type=P28A
+registration=N9284M
+flightNumber=N9284M
+latitude=37.72
+longitude=-122.2
+altitude=300.0
+angle=22.0
+speed=87.0
+timestamp=1386223980
+airline=
+flightNumber2=N/A
+path=Array: [OAK,CCR]
+
+}
+, Class: Flight{
+identification=A84CE2
+type=E175
+registration=N634CZ
+flightNumber=DL5687
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=DAL
+flightNumber2=N/A
+path=Array: [SLC,SFO]
+
+}
+, Class: Flight{
+identification=A4BD40
+type=A320
+registration=N404UA
+flightNumber=UA493T
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223800
+airline=UAL
+flightNumber2=N/A
+path=Array: [ORD,SFO]
+
+}
+, Class: Flight{
+identification=UA5448
+type=CRJ2
+registration=z.NO-REG
+flightNumber=UA5448
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=UAL
+flightNumber2=N/A
+path=Array: [SFO,RDM,SFO]
+
+}
+, Class: Flight{
+identification=UA5303
+type=E120
+registration=z.NO-REG
+flightNumber=UA5303
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=UAL
+flightNumber2=N/A
+path=Array: [SFO,BFL,SFO]
+
+}
+, Class: Flight{
+identification=WN2162
+type=B737
+registration=z.NO-REG
+flightNumber=WN2162
+latitude=37.72
+longitude=-122.22
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=SWA
+flightNumber2=N/A
+path=Array: [BWI,CHS,MDW,LAS,OAK]
+
+}
+, Class: Flight{
+identification=UA1617
+type=B753
+registration=z.NO-REG
+flightNumber=UA1617
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=UAL
+flightNumber2=N/A
+path=Array: [LGA,ORD,SFO]
+
+}
+, Class: Flight{
+identification=A7AD0D
+type=A320
+registration=N594JB
+flightNumber=B6415
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=JBU
+flightNumber2=N/A
+path=Array: [JFK,SFO]
+
+}
+, Class: Flight{
+identification=WN441
+type=B737
+registration=z.NO-REG
+flightNumber=WN441
+latitude=37.72
+longitude=-122.22
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=SWA
+flightNumber2=N/A
+path=Array: [FLL,MDW,ICT,LAS,RNO,PHX,SAN,OAK]
+
+}
+, Class: Flight{
+identification=A38DB2
+type=C172
+registration=N328TA
+flightNumber=N328TA
+latitude=37.72
+longitude=-122.2
+altitude=300.0
+angle=56.0
+speed=75.0
+timestamp=1386223980
+airline=
+flightNumber2=N/A
+path=Array: [OAK,1O3]
+
+}
+, Class: Flight{
+identification=DL716
+type=B738
+registration=z.NO-REG
+flightNumber=DL716
+latitude=37.55
+longitude=-121.51
+altitude=11800.0
+angle=276.0
+speed=330.0
+timestamp=1386223980
+airline=DAL
+flightNumber2=N/A
+path=Array: [DTW,SFO]
+
+}
+, Class: Flight{
+identification=AC4DFB
+type=B738
+registration=N892NN
+flightNumber=AA2465
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=AAL
+flightNumber2=N/A
+path=Array: [LAX,SFO]
+
+}
+, Class: Flight{
+identification=A49510
+type=B739
+registration=N39475
+flightNumber=UA1624
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=UAL
+flightNumber2=N/A
+path=Array: [MCO,SFO,LAS]
+
+}
+, Class: Flight{
+identification=UA6286
+type=E120
+registration=z.NO-REG
+flightNumber=UA6286
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=UAL
+flightNumber2=N/A
+path=Array: [SBA,SFO]
+
+}
+, Class: Flight{
+identification=ABB089
+type=A319
+registration=N852UA
+flightNumber=UA543
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=UAL
+flightNumber2=N/A
+path=Array: [PHL,SFO]
+
+}
+, Class: Flight{
+identification=A76F87
+type=B753
+registration=N57870
+flightNumber=UA1728
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=UAL
+flightNumber2=N/A
+path=Array: [OGG,SFO,LAX]
+
+}
+, Class: Flight{
+identification=WN198
+type=B737
+registration=z.NO-REG
+flightNumber=WN198
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=SWA
+flightNumber2=N/A
+path=Array: [MDW,SFO,SNA]
+
+}
+, Class: Flight{
+identification=DL2209
+type=B752
+registration=z.NO-REG
+flightNumber=DL2209
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=DAL
+flightNumber2=N/A
+path=Array: [MSP,SFO]
+
+}
+, Class: Flight{
+identification=AS226
+type=B738
+registration=z.NO-REG
+flightNumber=AS226
+latitude=37.36
+longitude=-121.93
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=ASA
+flightNumber2=N/A
+path=Array: [SEA,SJC,GDL]
+
+}
+, Class: Flight{
+identification=WN3328
+type=B737
+registration=z.NO-REG
+flightNumber=WN3328
+latitude=36.99
+longitude=-121.44
+altitude=23400.0
+angle=139.0
+speed=409.0
+timestamp=1386223980
+airline=SWA
+flightNumber2=N/A
+path=Array: [SJC,SAN]
+
+}
+, Class: Flight{
+identification=UA5580
+type=CRJ2
+registration=z.NO-REG
+flightNumber=UA5580
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=UAL
+flightNumber2=N/A
+path=Array: [SFO,MFR]
+
+}
+, Class: Flight{
+identification=WN304
+type=B737
+registration=z.NO-REG
+flightNumber=WN304
+latitude=37.72
+longitude=-122.22
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=SWA
+flightNumber2=N/A
+path=Array: [SEA,OAK]
+
+}
+, Class: Flight{
+identification=A62F93
+type=A320
+registration=N498UA
+flightNumber=UA453
+latitude=37.36
+longitude=-121.93
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=UAL
+flightNumber2=N/A
+path=Array: [BWI,DEN,SJC]
+
+}
+, Class: Flight{
+identification=DL4661
+type=CRJ9
+registration=z.NO-REG
+flightNumber=DL4661
+latitude=37.36
+longitude=-121.93
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=DAL
+flightNumber2=N/A
+path=Array: [LAX,SJC]
+
+}
+, Class: Flight{
+identification=UA5356
+type=E120
+registration=z.NO-REG
+flightNumber=UA5356
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=UAL
+flightNumber2=N/A
+path=Array: [SMF,SFO]
+
+}
+, Class: Flight{
+identification=UA5451
+type=E120
+registration=z.NO-REG
+flightNumber=UA5451
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=UAL
+flightNumber2=N/A
+path=Array: [SFO,SBP,SFO]
+
+}
+, Class: Flight{
+identification=A620B7
+type=A320
+registration=N494UA
+flightNumber=UA995
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=UAL
+flightNumber2=N/A
+path=Array: [PDX,SFO]
+
+}
+, Class: Flight{
+identification=ABA30B
+type=A319
+registration=N849UA
+flightNumber=UA488
+latitude=37.36
+longitude=-121.93
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=UAL
+flightNumber2=N/A
+path=Array: [EWR,IAH,SJC]
+
+}
+, Class: Flight{
+identification=UA6432
+type=CRJ7
+registration=z.NO-REG
+flightNumber=UA6432
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223560
+airline=UAL
+flightNumber2=N/A
+path=Array: [SFO,SNA,SFO]
+
+}
+, Class: Flight{
+identification=WN1368
+type=B737
+registration=z.NO-REG
+flightNumber=WN1368
+latitude=37.52
+longitude=-122.11
+altitude=20200.0
+angle=102.0
+speed=377.0
+timestamp=1386223980
+airline=SWA
+flightNumber2=N/A
+path=Array: [OAK,LAS]
+
+}
+, Class: Flight{
+identification=URF7
+type=PC12
+registration=z.NO-REG
+flightNumber=URF7
+latitude=37.51
+longitude=-122.25
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223560
+airline=URF
+flightNumber2=N/A
+path=Array: [BUR,SQL]
+
+}
+, Class: Flight{
+identification=WN634
+type=B737
+registration=z.NO-REG
+flightNumber=WN634
+latitude=37.72
+longitude=-122.22
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=SWA
+flightNumber2=N/A
+path=Array: [BWI,PVD,MDW,RDU,LAS,SAN,OAK]
+
+}
+, Class: Flight{
+identification=WN1019
+type=B737
+registration=z.NO-REG
+flightNumber=WN1019
+latitude=37.72
+longitude=-122.22
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=SWA
+flightNumber2=N/A
+path=Array: [SNA,OAK]
+
+}
+, Class: Flight{
+identification=UA1057
+type=B753
+registration=z.NO-REG
+flightNumber=UA1057
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=UAL
+flightNumber2=N/A
+path=Array: [LAX,IAD,SFO]
+
+}
+, Class: Flight{
+identification=A83988
+type=A320
+registration=N629VA
+flightNumber=VX717
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=VRD
+flightNumber2=N/A
+path=Array: [DFW,SFO]
+
+}
+, Class: Flight{
+identification=WN110
+type=B737
+registration=z.NO-REG
+flightNumber=WN110
+latitude=37.72
+longitude=-122.22
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=SWA
+flightNumber2=N/A
+path=Array: [PHX,OAK]
+
+}
+, Class: Flight{
+identification=A8434F
+type=A320
+registration=N631VA
+flightNumber=VX193
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=VRD
+flightNumber2=N/A
+path=Array: [EWR,SFO]
+
+}
+, Class: Flight{
+identification=AA2801
+type=CRJ7
+registration=z.NO-REG
+flightNumber=AA2801
+latitude=36.58
+longitude=-121.53
+altitude=14900.0
+angle=338.0
+speed=366.0
+timestamp=1386223980
+airline=AAL
+flightNumber2=N/A
+path=Array: [LAX,SJC]
+
+}
+, Class: Flight{
+identification=UA5461
+type=E120
+registration=z.NO-REG
+flightNumber=UA5461
+latitude=37.62
+longitude=-122.37
+altitude=4000.0
+angle=89.0
+speed=175.0
+timestamp=1386223980
+airline=UAL
+flightNumber2=N/A
+path=Array: [SFO,MOD]
+
+}
+, Class: Flight{
+identification=AD9E4D
+type=FA7X
+registration=N977GS
+flightNumber=N977GS
+latitude=37.36
+longitude=-121.93
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=
+flightNumber2=N/A
+path=Array: [TEB,SJC]
+
+}
+, Class: Flight{
+identification=A2337A
+type=PA38
+registration=N2408L
+flightNumber=N2408L
+latitude=37.89
+longitude=-121.24
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=
+flightNumber2=N/A
+path=Array: [,SCK]
+
+}
+, Class: Flight{
+identification=WN1020
+type=B737
+registration=z.NO-REG
+flightNumber=WN1020
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=SWA
+flightNumber2=N/A
+path=Array: [ABQ,PHX,SFO]
+
+}
+, Class: Flight{
+identification=A3AD5A
+type=A320
+registration=N336NW
+flightNumber=DL1253
+latitude=37.72
+longitude=-122.22
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=DAL
+flightNumber2=N/A
+path=Array: [SLC,OAK]
+
+}
+, Class: Flight{
+identification=ABAFFF
+type=B738
+registration=N852NN
+flightNumber=AA2411
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=AAL
+flightNumber2=N/A
+path=Array: [DFW,SFO]
+
+}
+, Class: Flight{
+identification=A47195
+type=B763
+registration=N386AA
+flightNumber=AA85
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223680
+airline=AAL
+flightNumber2=N/A
+path=Array: [JFK,SFO]
+
+}
+, Class: Flight{
+identification=WN34
+type=B737
+registration=z.NO-REG
+flightNumber=WN34
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=SWA
+flightNumber2=N/A
+path=Array: [MDW,ATL,HOU,DAL,OKC,PHX,SNA,SFO]
+
+}
+, Class: Flight{
+identification=AA177
+type=B762
+registration=z.NO-REG
+flightNumber=AA177
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=AAL
+flightNumber2=N/A
+path=Array: [JFK,SFO]
+
+}
+, Class: Flight{
+identification=EJA120
+type=BE40
+registration=z.NO-REG
+flightNumber=EJA120
+latitude=36.71
+longitude=-121.88
+altitude=17600.0
+angle=337.0
+speed=370.0
+timestamp=1386223980
+airline=EJA
+flightNumber2=N/A
+path=Array: [VNY,SFO]
+
+}
+, Class: Flight{
+identification=A81ABE
+type=A320
+registration=N621JB
+flightNumber=B6669
+latitude=37.09
+longitude=-121.5
+altitude=7200.0
+angle=309.0
+speed=269.0
+timestamp=1386223980
+airline=JBU
+flightNumber2=N/A
+path=Array: [JFK,SJC]
+
+}
+, Class: Flight{
+identification=DL241
+type=B752
+registration=z.NO-REG
+flightNumber=DL241
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=DAL
+flightNumber2=N/A
+path=Array: [FCO,ATL,SFO]
+
+}
+, Class: Flight{
+identification=A7EF08
+type=E175
+registration=N610CZ
+flightNumber=DL5854
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=DAL
+flightNumber2=N/A
+path=Array: [LAX,SFO]
+
+}
+, Class: Flight{
+identification=ABB459
+type=A320
+registration=N853VA
+flightNumber=VX945
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=VRD
+flightNumber2=N/A
+path=Array: [LAX,SFO]
+
+}
+, Class: Flight{
+identification=AS379
+type=B734
+registration=z.NO-REG
+flightNumber=AS379
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=ASA
+flightNumber2=N/A
+path=Array: [PDX,SFO]
+
+}
+, Class: Flight{
+identification=A4B989
+type=A320
+registration=N403UA
+flightNumber=UA829
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=UAL
+flightNumber2=N/A
+path=Array: [DFW,SFO,SEA]
+
+}
+, Class: Flight{
+identification=UA6255
+type=CRJ7
+registration=z.NO-REG
+flightNumber=UA6255
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=UAL
+flightNumber2=N/A
+path=Array: [AUS,SFO]
+
+}
+, Class: Flight{
+identification=A69238
+type=A319
+registration=N522VA
+flightNumber=VX969
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=VRD
+flightNumber2=N/A
+path=Array: [SAN,SFO]
+
+}
+, Class: Flight{
+identification=WN3044
+type=B737
+registration=z.NO-REG
+flightNumber=WN3044
+latitude=37.11
+longitude=-121.24
+altitude=16100.0
+angle=308.0
+speed=358.0
+timestamp=1386223980
+airline=SWA
+flightNumber2=N/A
+path=Array: [SNA,OAK]
+
+}
+, Class: Flight{
+identification=UA5600
+type=CRJ2
+registration=z.NO-REG
+flightNumber=UA5600
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=UAL
+flightNumber2=N/A
+path=Array: [BUR,SFO]
+
+}
+, Class: Flight{
+identification=A5FCEF
+type=A320
+registration=N485UA
+flightNumber=UA435
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=UAL
+flightNumber2=N/A
+path=Array: [STL,SFO]
+
+}
+, Class: Flight{
+identification=DL1684
+type=B738
+registration=z.NO-REG
+flightNumber=DL1684
+latitude=37.11
+longitude=-121.12
+altitude=11900.0
+angle=292.0
+speed=339.0
+timestamp=1386223980
+airline=DAL
+flightNumber2=N/A
+path=Array: [ATL,SJC,ATL]
+
+}
+, Class: Flight{
+identification=AS832
+type=B738
+registration=z.NO-REG
+flightNumber=AS832
+latitude=37.36
+longitude=-121.93
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=ASA
+flightNumber2=N/A
+path=Array: [HNL,SJC]
+
+}
+, Class: Flight{
+identification=A44031
+type=A320
+registration=N373NW
+flightNumber=DL2412
+latitude=37.36
+longitude=-121.93
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=DAL
+flightNumber2=N/A
+path=Array: [SLC,SJC]
+
+}
+, Class: Flight{
+identification=A9A113
+type=U21
+registration=N7199D
+flightNumber=N7199D
+latitude=38.0
+longitude=-122.05
+altitude=800.0
+angle=40.0
+speed=115.0
+timestamp=1386223980
+airline=
+flightNumber2=N/A
+path=Array: [?,?]
+
+}
+, Class: Flight{
+identification=A4671F
+type=A332
+registration=N383HA
+flightNumber=HA12
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=HAL
+flightNumber2=N/A
+path=Array: [HNL,SFO]
+
+}
+, Class: Flight{
+identification=A81A3E
+type=E175
+registration=N621CZ
+flightNumber=DL5856
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=DAL
+flightNumber2=N/A
+path=Array: [LAX,SFO]
+
+}
+, Class: Flight{
+identification=UA6252
+type=CRJ2
+registration=z.NO-REG
+flightNumber=UA6252
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223800
+airline=UAL
+flightNumber2=N/A
+path=Array: [SFO,EUG,SFO]
+
+}
+, Class: Flight{
+identification=AS404
+type=B738
+registration=z.NO-REG
+flightNumber=AS404
+latitude=37.36
+longitude=-121.93
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=ASA
+flightNumber2=N/A
+path=Array: [PDX,SJC]
+
+}
+, Class: Flight{
+identification=WN3239
+type=B737
+registration=z.NO-REG
+flightNumber=WN3239
+latitude=37.36
+longitude=-121.93
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=SWA
+flightNumber2=N/A
+path=Array: [ONT,SJC]
+
+}
+, Class: Flight{
+identification=A81E3E
+type=LJ40
+registration=N622FX
+flightNumber=BJS622
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=BJS
+flightNumber2=N/A
+path=Array: [BUR,SFO]
+
+}
+, Class: Flight{
+identification=A4EFE4
+type=A320
+registration=N417UA
+flightNumber=UA647
+latitude=37.49
+longitude=-121.95
+altitude=7600.0
+angle=291.0
+speed=229.0
+timestamp=1386223980
+airline=UAL
+flightNumber2=N/A
+path=Array: [IAD,SFO]
+
+}
+, Class: Flight{
+identification=UA512
+type=B752
+registration=z.NO-REG
+flightNumber=UA512
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=UAL
+flightNumber2=N/A
+path=Array: [JFK,SFO]
+
+}
+, Class: Flight{
+identification=WN259
+type=B737
+registration=z.NO-REG
+flightNumber=WN259
+latitude=37.36
+longitude=-121.93
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=SWA
+flightNumber2=N/A
+path=Array: [TUL,HOU,FLL,MKE,LAS,SJC,SNA]
+
+}
+, Class: Flight{
+identification=UA1471
+type=B737
+registration=z.NO-REG
+flightNumber=UA1471
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=UAL
+flightNumber2=N/A
+path=Array: [SNA,SFO]
+
+}
+, Class: Flight{
+identification=AMF238
+type=PA31
+registration=z.NO-REG
+flightNumber=AMF238
+latitude=37.66
+longitude=-122.12
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=AMF
+flightNumber2=N/A
+path=Array: [VIS,FAT]
+
+}
+, Class: Flight{
+identification=UA389
+type=B752
+registration=z.NO-REG
+flightNumber=UA389
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=UAL
+flightNumber2=N/A
+path=Array: [JFK,SFO]
+
+}
+, Class: Flight{
+identification=AB5B8C
+type=B738
+registration=N8306H
+flightNumber=WN428
+latitude=37.36
+longitude=-121.93
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=SWA
+flightNumber2=N/A
+path=Array: [SAT,SAN,PHX,SJC]
+
+}
+, Class: Flight{
+identification=WN2448
+type=B733
+registration=z.NO-REG
+flightNumber=WN2448
+latitude=37.36
+longitude=-121.93
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=SWA
+flightNumber2=N/A
+path=Array: [PDX,SJC,ONT]
+
+}
+, Class: Flight{
+identification=A752EA
+type=A320
+registration=N571JB
+flightNumber=B6448
+latitude=37.72
+longitude=-122.22
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=JBU
+flightNumber2=N/A
+path=Array: [LGB,OAK]
+
+}
+, Class: Flight{
+identification=UA6862
+type=A320
+registration=z.NO-REG
+flightNumber=UA6862
+latitude=37.59
+longitude=-121.32
+altitude=17300.0
+angle=272.0
+speed=366.0
+timestamp=1386223980
+airline=UAL
+flightNumber2=N/A
+path=Array: [LAS,SFO]
+
+}
+, Class: Flight{
+identification=REH50
+type=BE20
+registration=z.NO-REG
+flightNumber=REH50
+latitude=37.99
+longitude=-122.06
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=REH
+flightNumber2=N/A
+path=Array: [LGB,CCR]
+
+}
+, Class: Flight{
+identification=AMF230
+type=PA31
+registration=z.NO-REG
+flightNumber=AMF230
+latitude=37.66
+longitude=-122.12
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=AMF
+flightNumber2=N/A
+path=Array: [EKA,UKI]
+
+}
+, Class: Flight{
+identification=WN1374
+type=B737
+registration=z.NO-REG
+flightNumber=WN1374
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=SWA
+flightNumber2=N/A
+path=Array: [SEA,PHX,SFO]
+
+}
+, Class: Flight{
+identification=UA1720
+type=B738
+registration=z.NO-REG
+flightNumber=UA1720
+latitude=37.62
+longitude=-122.37
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=UAL
+flightNumber2=N/A
+path=Array: [HNL,SFO,IAD]
+
+}
+, Class: Flight{
+identification=A2718A
+type=F2TX
+registration=N257AL
+flightNumber=N257AL
+latitude=37.36
+longitude=-121.93
+altitude=0.0
+angle=0.0
+speed=0.0
+timestamp=1386223980
+airline=
+flightNumber2=N/A
+path=Array: [TEB,SJC]
+
+}
+]
+
+
+Partial: true. Successfully loaded 146 flights (0 failed)
+
